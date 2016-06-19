@@ -8,8 +8,6 @@ url: products
 ---
 * * *
 
-####  {.entry-title}
-
 ### DepositFix – Payment Solution for HubSpot
 
 Accept payments using your HubSpot forms and run marketing campaigns based on purchases.
@@ -17,8 +15,6 @@ Accept payments using your HubSpot forms and run marketing campaigns based on pu
 <http://www.depositfix.com/>
 
 * * *
-
-####  {.entry-title}
 
 ### Smart Forms for HubSpot
 
@@ -31,8 +27,7 @@ Smart Forms provides a compromise of effective and user friendly way to increase
 #### Features
 
   * HubSpot native.
-  
-    Built specifically for HubSpot, you can use like any other module.
+  * Built specifically for HubSpot, you can use like any other module.
   * Mobile ready
   * Slide in form, doesn’t block content
   * Timed based appearance
@@ -44,8 +39,6 @@ Smart Forms provides a compromise of effective and user friendly way to increase
 [Get SmartForms][1]
 
 * * *
-
-### 
 
 ### HubSpot API Java Client
 

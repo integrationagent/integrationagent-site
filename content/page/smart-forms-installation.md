@@ -15,8 +15,7 @@ Smart Forms provides a compromise of effective and user friendly way to increase
 ### Features
 
   * HubSpot native.
-  
-    Built specifically for HubSpot, you can use like any other module.
+  * Built specifically for HubSpot, you can use like any other module.
   * Mobile ready
   * Slide in form, doesn&#8217;t block content
   * Timed based appearance
@@ -32,6 +31,10 @@ Smart Forms provides a compromise of effective and user friendly way to increase
 &nbsp;
 
 ### Installation
+
+{{< youtube SJQAtTi2B3Y >}}
+
+<br/>
 
 1. To install Smart Forms and use it as HubSpot module you have to create a custom module first. Go to you HubSpot portal an then:
 

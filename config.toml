@@ -1,5 +1,5 @@
 baseurl = "https://integrationagent"
-title = "DepositFix - Payment Solution for HubSpot"
+title = "Integration Agent - Get the most out of your marketing automation"
 canonifyurls = true
 paginate = 10
 theme = "startbootstrap-clean-blog"
@@ -13,12 +13,17 @@ disqusShortname = "integrationagent"
 
 [params]
   DateForm = "Mon, Jan 2, 2006"
-  Description = "DepositFix"
+  Description = "Integration Agent"
   Author = "Denis Lunev"
   email = "denis@integrationagent.com"
   Ganalytics = "UA-7712728-16"
 
 [[menu.main]]
-  name = "Fee Calculator"
-  url = "/calc"
+  name = "Blog"
+  url = "/blog"
   weight = -200
+
+[[menu.main]]
+  name = "Products"
+  url = "/products"
+  weight = -180
