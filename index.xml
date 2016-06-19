@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DepositFix - Payment Solution for HubSpot</title>
+    <title>Integration Agent - Get the most out of your marketing automation</title>
     <link>https://integrationagent/</link>
-    <description>Recent content on DepositFix - Payment Solution for HubSpot</description>
+    <description>Recent content on Integration Agent - Get the most out of your marketing automation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Integration Agent 2016</copyright>
@@ -161,8 +161,6 @@
 
 &lt;hr /&gt;
 
-&lt;h4 id=&#34;entry-title&#34;&gt;{.entry-title}&lt;/h4&gt;
-
 &lt;h3 id=&#34;depositfix-payment-solution-for-hubspot&#34;&gt;DepositFix – Payment Solution for HubSpot&lt;/h3&gt;
 
 &lt;p&gt;Accept payments using your HubSpot forms and run marketing campaigns based on purchases.&lt;/p&gt;
@@ -170,8 +168,6 @@
 &lt;p&gt;&lt;a href=&#34;http://www.depositfix.com/&#34;&gt;http://www.depositfix.com/&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
-
-&lt;h4 id=&#34;entry-title-1&#34;&gt;{.entry-title}&lt;/h4&gt;
 
 &lt;h3 id=&#34;smart-forms-for-hubspot&#34;&gt;Smart Forms for HubSpot&lt;/h3&gt;
 
@@ -184,23 +180,15 @@
 &lt;h4 id=&#34;features&#34;&gt;Features&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;HubSpot native.&lt;/p&gt;
-
-&lt;p&gt;Built specifically for HubSpot, you can use like any other module.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Mobile ready&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Slide in form, doesn’t block content&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Timed based appearance&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;If a user closes the form – it wouldn’t show up for the next 24 hours.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;If a user submitted the form, the popup for this specific form will never be shown again.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Scroll-Based (in development)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Exit-Intent (in development)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;HubSpot native.&lt;/li&gt;
+&lt;li&gt;Built specifically for HubSpot, you can use like any other module.&lt;/li&gt;
+&lt;li&gt;Mobile ready&lt;/li&gt;
+&lt;li&gt;Slide in form, doesn’t block content&lt;/li&gt;
+&lt;li&gt;Timed based appearance&lt;/li&gt;
+&lt;li&gt;If a user closes the form – it wouldn’t show up for the next 24 hours.&lt;/li&gt;
+&lt;li&gt;If a user submitted the form, the popup for this specific form will never be shown again.&lt;/li&gt;
+&lt;li&gt;Scroll-Based (in development)&lt;/li&gt;
+&lt;li&gt;Exit-Intent (in development)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://integrationagent.com/smartforms&#34;&gt;Get SmartForms&lt;/a&gt;&lt;/p&gt;
@@ -498,23 +486,15 @@
 &lt;h3 id=&#34;features&#34;&gt;Features&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;HubSpot native.&lt;/p&gt;
-
-&lt;p&gt;Built specifically for HubSpot, you can use like any other module.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Mobile ready&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Slide in form, doesn&amp;#8217;t block content&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Timed based appearance&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;If a user closes the form – it wouldn&amp;#8217;t show up for the next 24 hours.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;If a user submitted the form, the popup for this specific form will never be shown again.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Scroll-Based (in development)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Exit-Intent (in development)&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;HubSpot native.&lt;/li&gt;
+&lt;li&gt;Built specifically for HubSpot, you can use like any other module.&lt;/li&gt;
+&lt;li&gt;Mobile ready&lt;/li&gt;
+&lt;li&gt;Slide in form, doesn&amp;#8217;t block content&lt;/li&gt;
+&lt;li&gt;Timed based appearance&lt;/li&gt;
+&lt;li&gt;If a user closes the form – it wouldn&amp;#8217;t show up for the next 24 hours.&lt;/li&gt;
+&lt;li&gt;If a user submitted the form, the popup for this specific form will never be shown again.&lt;/li&gt;
+&lt;li&gt;Scroll-Based (in development)&lt;/li&gt;
+&lt;li&gt;Exit-Intent (in development)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://intagent.wpengine.com/wp-content/uploads/2015/11/smart_forms.png&#34;&gt;&lt;img class=&#34;aligncenter wp-image-18 size-full&#34; src=&#34;http://intagent.wpengine.com/wp-content/uploads/2015/11/smart_forms.png&#34; alt=&#34;smart_forms&#34; width=&#34;954&#34; height=&#34;692&#34; srcset=&#34;https://integrationagent/img/smart_forms.png 954w, https://integrationagent/img/smart_forms-300x218.png 300w, https://integrationagent/img/smart_forms-644x467.png 644w&#34; sizes=&#34;(max-width: 954px) 100vw, 954px&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
@@ -522,6 +502,14 @@
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
 
 &lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/SJQAtTi2B3Y&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;p&gt;&lt;br/&gt;&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;To install Smart Forms and use it as HubSpot module you have to create a custom module first. Go to you HubSpot portal an then:&lt;/li&gt;
