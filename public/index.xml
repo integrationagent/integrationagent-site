@@ -7,8 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Integration Agent 2016</copyright>
-    <lastBuildDate>Mon, 25 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 Jun 2016 08:51:32 -0500</lastBuildDate>
     <atom:link href="https://integrationagent/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>smartforms</title>
+      <link>https://integrationagent/smartforms</link>
+      <pubDate>Sun, 19 Jun 2016 08:51:32 -0500</pubDate>
+      
+      <guid>https://integrationagent/smartforms</guid>
+      <description>&lt;iframe src=&#34;https://integrationagent.com/smartforms&#34;&gt;&lt;/iframe&gt;
+</description>
+    </item>
     
     <item>
       <title>How to get HubSpot API key</title>
