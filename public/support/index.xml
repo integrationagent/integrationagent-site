@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Supports on My New Hugo Site</title>
+    <link>http://replace-this-with-your-hugo-site.com/support/</link>
+    <description>Recent content in Supports on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 24 May 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/support/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Support</title>
+      <link>http://replace-this-with-your-hugo-site.com/support/</link>
+      <pubDate>Tue, 24 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/support/</guid>
+      <description>&lt;p&gt;Support subscription Plan($79/m)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
