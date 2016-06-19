@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Payments on My New Hugo Site</title>
+    <link>http://replace-this-with-your-hugo-site.com/payment/</link>
+    <description>Recent content in Payments on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 29 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/payment/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Payment</title>
+      <link>http://replace-this-with-your-hugo-site.com/payment/</link>
+      <pubDate>Fri, 29 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/payment/</guid>
+      <description>&lt;p&gt;Subscription Plan for Tiger Global ($99/m)&lt;/p&gt;
+
+&lt;p&gt;Includes standard support plan ($79/m) + payment for proxy server ($20/m)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

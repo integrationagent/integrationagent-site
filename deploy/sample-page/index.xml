@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sample-pages on My New Hugo Site</title>
+    <link>http://replace-this-with-your-hugo-site.com/sample-page/</link>
+    <description>Recent content in Sample-pages on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Aug 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://replace-this-with-your-hugo-site.com/sample-page/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Sample Page</title>
+      <link>http://replace-this-with-your-hugo-site.com/sample-page/</link>
+      <pubDate>Tue, 18 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>http://replace-this-with-your-hugo-site.com/sample-page/</guid>
+      <description>&lt;p&gt;This is an example page. It&amp;#8217;s different from a blog post because it will stay in one place and will show up in your site navigation (in most themes). Most people start with an About page that introduces them to potential site visitors. It might say something like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Hi there! I&amp;#8217;m a bike messenger by day, aspiring actor by night, and this is my website. I live in Los Angeles, have a great dog named Jack, and I like pi&amp;#241;a coladas. (And gettin&amp;#8217; caught in the rain.)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&amp;#8230;or something like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The XYZ Doohickey Company was founded in 1971, and has been providing quality doohickeys to the public ever since. Located in Gotham City, XYZ employs over 2,000 people and does all kinds of awesome things for the Gotham community.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;As a new WordPress user, you should go to &lt;a href=&#34;http://intagent.wpengine.com/wp-admin/&#34;&gt;your dashboard&lt;/a&gt; to delete this page and create new pages for your content. Have fun!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
