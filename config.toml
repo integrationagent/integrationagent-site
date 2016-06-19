@@ -1,4 +1,4 @@
-baseurl = "http://integrationagent.com"
+baseurl = "https://integrationagent.com"
 title = "Integration Agent - Get the most out of your marketing automation"
 canonifyurls = true
 paginate = 10
