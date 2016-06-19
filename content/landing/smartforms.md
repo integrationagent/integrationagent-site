@@ -5,4 +5,4 @@ title = "smartforms"
 url = "smartforms"
 +++
 
-<iframe src="https://integrationagent.com/smartforms"></iframe>
+<iframe src="https://lp.integrationagent.com/smartforms"></iframe>
