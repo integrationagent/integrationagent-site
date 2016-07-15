@@ -1,0 +1,139 @@
+Differences between Payment Gateway and a Merchant Account
+==========================================================
+
+Virtually all businesses—from big-box retailers to Etsy merchants, from
+trade show merchants to antique sellers—accept payments in the form of
+credit cards. And here is the fact: more and more businesses are
+accepting online payments in this fast-paced, ever-changing and complex
+e-commerce industry.
+
+If you’re already accepting credit card payments from online sales, then
+you must be at home with merchant accounts. However, if you’re a newbie
+in e-commerce, then you must be grappling to learn about payment
+gateways. So, what’s the difference between merchant accounts and
+payment gateways?
+
+Well, in “***Differences between Payment Gateway and a Merchant
+Account***” we’ve decided to break it down for you. Let’s get started.
+
+What is a merchant account?
+---------------------------
+
+A merchant account is an online bank account that temporarily holds your
+money once payment has been approved by a payment gateway. After a
+successful payment, money will stay in your merchant account for a few
+days (between 2 to 7 days) after which it will be transferred to your
+real bank account.
+
+There are two main types of merchant accounts. These are:
+
+-   Dedicated Merchant Account
+
+-   Aggregate Merchant Account
+
+### Dedicated Merchant Account
+
+A dedicated Merchant Account provides you with total control over your
+funds. For every transaction that’s conducted, the merchant account
+provider deducts processing fees and the rest of the money is deposited
+into your business account. You can set up your account with payment
+gateway systems such as Authorize.Net, PayLeap, and Blue Pay Processing
+LLC.
+
+Some of the actions that you can take while using a dedicated merchant
+account are:
+
+-   Debiting your account in case your customers make charge-back claims
+
+-   Correcting the errors in the transactions
+
+-   Taking necessary actions in case there’s an evidence of fraudulent
+    activity
+
+### Aggregate Merchant Account
+
+In this type of account, the money that customers pay is pooled with
+other companies. For you to open such an account, you must provide
+details about your company and the type of products and services that
+you’re dealing with. Since the amount of money in your account is pooled
+with other companies, you don’t have exclusive control over the account.
+In fact, you can’t negotiate the rates when using this account.
+
+What about a payment gateway?
+-----------------------------
+
+A payment gateway is an e-commerce application system that permits
+credit card payments for e-commerce transactions, online retailing and
+traditional brick and mortar transactions. When customers are buying
+goods and services from your online store, they fill out their credit
+card details during the checkout process.
+
+Your online store will then send the credit card data that has been
+entered during the checkout process to the payment gateway to authorize
+the transaction and process the payment. During the processing, all the
+payment gateway does is to verify whether the information customers have
+submitted matches the data that’s available on the credit card. If they
+match, then the payment is approved and money is then transferred from
+the customer’s account to your merchant account.
+
+Some of the popular payment gateways—that don’t require merchant
+accounts—include PayPal, Stripe and Simplify Commerce.
+
+The main feature of these payment gateways is that you will not need to
+change bank accounts. Or, perform anything special for you to get up
+running with the payments processing. Furthermore, it’s easier to
+integrate these systems with your online store.
+
+But still, there are downsides too. First, there are higher transaction
+charges that you’ll incur when using these payment systems. Second,
+virtually all modern payment gateways always send customers to off-sites
+while making payments. This often reduces the conversion rates for some
+stores.
+
+I know you’re thinking, “***What is the difference between online and
+off-site and on-site payment gateways?***”
+
+Well, with the on-site payment gateway, a customer remains on your
+website for the entire duration of the shopping experience. Here’s how
+an on-site payment gateway works:
+
+-   A customer arrives at your online store.
+
+-   He/she adds the products or services to their shopping cart
+
+-   He/she proceeds to the checkout page.
+
+-   He/she enters their customer and billing data.
+
+-   Submits the order.
+
+-   Receives the order confirmation.
+
+If you’re using HubSpot COS, you can try using the
+[DepositFix](http://www.depositfix.com/) forms. The forms can help you
+accept payments using HubSpot forms and run your marketing campaigns
+based on the purchases. With off-site payment gateway, a customer is
+taken outside of your online store to complete the checkout process.
+
+So, which option is right for your business?
+--------------------------------------------
+
+Merchant accounts have been with us for quite some time since the coming
+on of credit cards. If you’re a retailer that sells primarily from the
+brick and mortar stores, then setting up a merchant account can help you
+increase your cash flows in the business.
+
+On the other hand, the payment gateways are ideal for e-businesses and
+other mobile retailers. When you use this payment gateway, the retailers
+can easily enter and approve their credit card details from their mobile
+devices.
+
+Putting it together
+-------------------
+
+Adding a payment gateway system or a merchant account to your online
+store is a critical part of enhancing your business bottom line. When
+you’re ready to accept payments, you can compete favorably in today’s
+fast-paced and ever-evolving business environment. I hope this post has
+been helpful in your search for the differences between payment gateways
+and merchant accounts.
