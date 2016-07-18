@@ -1,0 +1,57 @@
+.Input {
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    border: 1px solid #ccc;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 3px;
+    font-size: 20px;
+    width: 400px;
+}
+
+.Button {
+    padding: 8px;
+    border-radius: 3px;
+    display: inline-flex;
+    height: auto;
+    width: auto;
+    font-size: 15px;
+    border: 1px solid #cccccc;
+    background-color: #336699;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #fff;
+    cursor: pointer;
+}
+
+.Button[disabled] {
+    padding: 8px;
+    border-radius: 3px;
+    display: inline-flex;
+    height: auto;
+    width: auto;
+    font-size: 15px;
+    border: 1px solid #cccccc;
+    background-color: #c0c0c0;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #fff;
+    cursor: not-allowed;
+}
+
+.generated_code{
+    width: 60%;
+    height: 600px;
+    padding: 15px;
+    background-color: #f5f5f5;
+}
+
+

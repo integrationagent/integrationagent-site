@@ -7,8 +7,112 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Integration Agent 2016</copyright>
-    <lastBuildDate>Fri, 15 Jul 2016 06:24:27 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 05 Aug 2016 06:24:47 -0500</lastBuildDate>
     <atom:link href="https://integrationagent.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Why You Need SSL to Accept Payments and How to Setup SSL Certificate on HubSpot Website</title>
+      <link>https://integrationagent.com/setup-ssl</link>
+      <pubDate>Fri, 05 Aug 2016 06:24:47 -0500</pubDate>
+      
+      <guid>https://integrationagent.com/setup-ssl</guid>
+      <description>
+
+&lt;p&gt;What makes a great online store? It used to be that mobile optimization,
+great content, and responsiveness alone were enough.&lt;/p&gt;
+
+&lt;p&gt;Well, part of the process that you must accomplish when developing an
+online store is determining how to secure online experiences of your
+customers. If you’re new to online stores, you might get confused on SSL
+certificates as a primary component of the web security process. You may
+have tons of queries such as: what it is, how it works and more
+important, how to set it up on your HubSpot website.&lt;/p&gt;
+
+&lt;p&gt;In this article we break it down for you so that you
+understand what SSL is, why you need it on your website and how to set
+it up on your online store. Let’s get started.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-is-ssl&#34;&gt;What is SSL?&lt;/h2&gt;
+
+&lt;p&gt;SSL is an acronym for Secure Sockets Layer. In some instances, it’s
+called the TSL (Transport Security Layer). SSL is simply a protocol that
+encrypts transactions between a client application (a browser) and the
+online store server. Simply put: SSL protects the sensitive information
+such as credit card details—by making them private and confidential—from
+being stolen by malicious users over the internet.&lt;/p&gt;
+
+&lt;p&gt;SSL uses an encryption algorithm that ensures that each message being
+exchanged on the web passes integrity test before being transmitted. If
+the integrity test fails—due to corruption or an unexpected alteration
+by malicious users—then such a transaction doesn’t proceed to successful
+conclusion.&lt;/p&gt;
+
+&lt;p&gt;For you to enhance the security of online transactions, you should
+obtain an SSL certificate that’s relevant for that domain. The
+certificate will apply the encryption algorithms for all the
+transactions that take place between customers and your online store.&lt;/p&gt;
+
+&lt;p&gt;SSL is visible to users in several ways in the website address bar:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A lock icon in the browser bar&lt;/li&gt;
+&lt;li&gt;The website address starting with https://
+&lt;br/&gt;
+&lt;img src=&#34;https://integrationagent.com/img/why-ssl/ssl_icon.png&#34;/&gt;
+&lt;br/&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;why-is-ssl-certificate-vital-for-accepting-payments&#34;&gt;Why is SSL certificate vital for accepting payments?&lt;/h2&gt;
+
+&lt;p&gt;As online mercantile, it’s your primary responsibility to ensure that
+the information being exchanged over your online store—which you collect
+from your customers—is protected at all costs. Here are reasons why you
+should protect your customer’s sensitive information such as credit card
+and personal information:&lt;/p&gt;
+
+&lt;h3 id=&#34;1-confidential-transactions&#34;&gt;1. Confidential Transactions&lt;/h3&gt;
+
+&lt;p&gt;The primary objective of any SSL is to transmit sensitive information
+with an encrypted connection. Your customers must be assured that their
+private data such as usernames, passwords and credit card numbers are
+not revealed to malicious attackers while they are making online
+payments.&lt;/p&gt;
+
+&lt;h3 id=&#34;2-customer-s-trust&#34;&gt;2. Customer’s Trust&lt;/h3&gt;
+
+&lt;p&gt;The majority of online shoppers are very choosy when it comes making
+online payments. Therefore, it’s your duty to convince them their
+privacy is guaranteed so that they trust your business and your
+products. An SSL enabled online store improves customer’s trust to your
+business.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-set-up-an-ssl-certificate-on-a-hubspot-website&#34;&gt;How to set up an SSL certificate on a HubSpot website&lt;/h2&gt;
+
+&lt;p&gt;You have 4 options here:&lt;/p&gt;
+
+&lt;h3 id=&#34;1-buy-ssl-add-on-from-hubspot&#34;&gt;1. Buy SSL add-on from HubSpot&lt;/h3&gt;
+
+&lt;p&gt;The pricing range is $100-$600 per month. &lt;br/&gt;
+&lt;a href=&#34;http://www.hubspot.com/products/website/ssl&#34;&gt;&lt;img src=&#34;https://integrationagent.com/img/why-ssl/hubspot_ssl.png&#34;/&gt;&lt;/a&gt;
+&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;2-install-certificate-on-your-server&#34;&gt;2. Install certificate on your server&lt;/h3&gt;
+
+&lt;p&gt;If you host your website not on HubSpot, but for example Wordpress on your own server, then you can buy a certificate from any major certificate authorities or get a free one from &lt;a href=&#34;https://letsencrypt.org/&#34;&gt;Let&amp;rsquo;s Encrypt&lt;/a&gt;.
+Then, you&amp;rsquo;d need to install it on your server, the installation process depends on your web server.&lt;/p&gt;
+
+&lt;h3 id=&#34;3-flexible-ssl-from-cloudflare&#34;&gt;3. Flexible SSL from CloudFlare&lt;/h3&gt;
+
+&lt;p&gt;To use this option you&amp;rsquo;ll need to move your domain to CloudFlare and activate Flexible SSL.
+It doesn&amp;rsquo;t involve buying and installing SSL certificate, but your visitors will still see the SSL icon and https:// in the address bar.
+Downside of this method is that it encrypts connection only between your site visitors and CloudFlare, but not from CloudFlare and your server.&lt;/p&gt;
+
+&lt;h3 id=&#34;4-depositfix-with-encrypted-subdomain&#34;&gt;4. DepositFix with encrypted subdomain&lt;/h3&gt;
+
+&lt;p&gt;Using DepositFix you can get a subdomain on your domain (e.g. payment.yourdomain.com).
+It&amp;rsquo;s still your domain, so buyers can be sure they pay to the right company plus you get fully 128-bit encrypted connection between browser and server.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Differences between Payment Gateway and a Merchant Account</title>
