@@ -7,7 +7,7 @@ url: smart-forms-installation
 
 ---
 
-<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 <script type="text/javascript" src="/js/generator.js"></script>
 <link rel="stylesheet" type="text/css" href="/css/generator.css" media="screen" />
 

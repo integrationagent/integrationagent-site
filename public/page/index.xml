@@ -128,7 +128,7 @@
       <guid>https://integrationagent.com/smart-forms-installation</guid>
       <description>
 
-&lt;p&gt;&lt;script src=&#34;http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js&#34;&gt;&lt;/script&gt;
+&lt;p&gt;&lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js&#34;&gt;&lt;/script&gt;
 &lt;script type=&#34;text/javascript&#34; src=&#34;https://integrationagent.com/js/generator.js&#34;&gt;&lt;/script&gt;
 &lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;https://integrationagent.com/css/generator.css&#34; media=&#34;screen&#34; /&gt;&lt;/p&gt;
 
