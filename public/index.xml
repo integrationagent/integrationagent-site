@@ -103,13 +103,13 @@ Then, you&amp;rsquo;d need to install it on your server, the installation proces
 
 &lt;h3 id=&#34;3-flexible-ssl-from-cloudflare&#34;&gt;3. Flexible SSL from CloudFlare&lt;/h3&gt;
 
-&lt;p&gt;To use this option you&amp;rsquo;ll need to move your domain to CloudFlare and activate Flexible SSL.
+&lt;p&gt;To use this option you&amp;rsquo;ll need to move your domain to &lt;a href=&#34;https://www.cloudflare.com/&#34;&gt;CloudFlare&lt;/a&gt; and activate &lt;a href=&#34;https://www.cloudflare.com/ssl/&#34;&gt;Flexible SSL&lt;/a&gt;.
 It doesn&amp;rsquo;t involve buying and installing SSL certificate, but your visitors will still see the SSL icon and https:// in the address bar.
 Downside of this method is that it encrypts connection only between your site visitors and CloudFlare, but not from CloudFlare and your server.&lt;/p&gt;
 
 &lt;h3 id=&#34;4-depositfix-with-encrypted-subdomain&#34;&gt;4. DepositFix with encrypted subdomain&lt;/h3&gt;
 
-&lt;p&gt;Using DepositFix you can get a subdomain on your domain (e.g. payment.yourdomain.com).
+&lt;p&gt;&lt;a href=&#34;http://depositfix.com&#34;&gt;DepositFix&lt;/a&gt; is a shopping cart created especialy for HubSpot. You can get a free subdomain on your domain (e.g. payment.yourdomain.com) for payment form.
 It&amp;rsquo;s still your domain, so buyers can be sure they pay to the right company plus you get fully 128-bit encrypted connection between browser and server.&lt;/p&gt;
 </description>
     </item>
