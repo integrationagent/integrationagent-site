@@ -109,7 +109,7 @@ Downside of this method is that it encrypts connection only between your site vi
 
 &lt;h3 id=&#34;4-depositfix-with-encrypted-subdomain&#34;&gt;4. DepositFix with encrypted subdomain&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://depositfix.com&#34;&gt;DepositFix&lt;/a&gt; is a shopping cart created especialy for HubSpot. You can get a free subdomain on your domain (e.g. payment.yourdomain.com) for payment form.
+&lt;p&gt;&lt;a href=&#34;http://depositfix.com&#34;&gt;DepositFix&lt;/a&gt; is a shopping cart created especially for HubSpot. You can get a free subdomain on your domain (e.g. payment.yourdomain.com) for payment form.
 It&amp;rsquo;s still your domain, so buyers can be sure they pay to the right company plus you get fully 128-bit encrypted connection between browser and server.&lt;/p&gt;
 </description>
     </item>
