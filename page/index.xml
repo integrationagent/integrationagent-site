@@ -128,6 +128,98 @@
       <guid>https://integrationagent.com/smart-forms-installation</guid>
       <description>
 
+&lt;p&gt;&lt;script src=&#34;http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js&#34;&gt;&lt;/script&gt;
+&lt;script type=&#34;text/javascript&#34; src=&#34;https://integrationagent.com/js/generator.js&#34;&gt;&lt;/script&gt;
+&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;https://integrationagent.com/css/generator.css&#34; media=&#34;screen&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;To install Smart Forms, add a custom HTML module to a page or template and copy the generated code:&lt;/p&gt;
+
+&lt;div ng-app=&#34;formGenerator&#34; ng-controller=&#34;formGeneratorCtrl&#34;&gt;
+    &lt;form name=&#34;generator&#34;&gt;
+        &lt;div ng-form name=&#34;portal&#34;&gt;
+            &lt;div&gt;Portal Id *&lt;/div&gt;
+            &lt;input name=&#34;portalInput&#34;
+            ng-model=&#34;PortalId&#34;
+            class=&#34;Input&#34;
+            spellcheck=&#34;false&#34;
+            required placeholder=&#34;Your HubSpot Portal Id&#34;&gt;
+            &lt;span ng-show=&#34;portal.portalInput.$touched &amp;&amp; portal.portalInput.$invalid&#34;&gt;Please enter the value&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div ng-form name=&#34;formId&#34;&gt;
+            &lt;div&gt;Form Id *&lt;/div&gt;
+            &lt;input name=&#34;formIdInput&#34;
+            ng-model=&#34;FormId&#34;
+            class=&#34;Input&#34;
+            spellcheck=&#34;false&#34;
+            required placeholder=&#34;Id of the form to show&#34;&gt;
+            &lt;span ng-show=&#34;formId.formIdInput.$touched &amp;&amp; formId.formIdInput.$invalid&#34;&gt;Please enter the value&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div ng-form name=&#34;title&#34;&gt;
+            &lt;div&gt;Form Title *&lt;/div&gt;
+            &lt;input name=&#34;titleInput&#34;
+            ng-model=&#34;Title&#34;
+            class=&#34;Input&#34;
+            spellcheck=&#34;false&#34;
+            required placeholder=&#34;Form Title&#34;&gt;
+            &lt;span ng-show=&#34;title.titleInput.$touched &amp;&amp; title.titleInput.$invalid&#34;&gt;Please enter the value&lt;/span&gt;
+        &lt;/div&gt;
+        &lt;div ng-form name=&#34;triggerTime&#34;&gt;
+            &lt;div&gt;Trigger Time&lt;/div&gt;
+            &lt;input ng-model=&#34;TriggerTime&#34;
+            class=&#34;Input&#34;
+            spellcheck=&#34;false&#34; placeholder=&#34;Time in seconds to appear&#34;&gt;
+        &lt;/div&gt;
+        &lt;div ng-form name=&#34;customErrorMessage&#34;&gt;
+            &lt;div&gt;Custom error message&lt;/div&gt;
+            &lt;input ng-model=&#34;CustomErrorMessage&#34;
+            class=&#34;Input&#34;
+            spellcheck=&#34;false&#34; placeholder=&#34;Custom Error Message&#34;&gt;
+        &lt;/div&gt;
+        &lt;div ng-form name=&#34;disableOnMobile&#34;&gt;
+            &lt;input ng-model=&#34;DisableOnMobile&#34;
+                type=&#34;checkbox&#34; /&gt;
+            &lt;label&gt;Disable on mobile&lt;/label&gt;
+        &lt;/div&gt;
+        &lt;div&gt;&lt;button type=&#34;submit&#34;
+                class=&#34;Button&#34;
+                ng-disabled=&#34;generator.$invalid&#34;
+                ng-click=&#34;showSnippet(); showed=true&#34;&gt;Generate Code&lt;/button&gt;
+        &lt;/div&gt;
+    &lt;/form&gt;
+    &lt;div&gt;
+        &lt;textarea ng-model=&#34;snippet&#34; ng-show=&#34;showed&#34;
+            spellcheck=&#34;false&#34; class=&#34;generated_code&#34;
+            readonly&gt;&lt;/textarea&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;copy-form-id-to-the-generator&#34;&gt;Copy Form Id to the generator&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://integrationagent.com/img/form-installation/form_id.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&#34;add-a-custom-html-module-to-a-page-or-template-and-copy-the-generated-code&#34;&gt;Add a &amp;ldquo;Custom HTML&amp;rdquo; module to a page or template and copy the generated code&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://integrationagent.com/img/form-installation/html_module.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;
+Also, you can add the form as a custom module to HubSpot:&lt;br/&gt;
+&lt;a href=&#34;https://integrationagent.com/smart-forms-installation-as-module&#34;&gt;Advanced Intructions&lt;/a&gt;
+
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Smart Forms for HubSpot</title>
+      <link>https://integrationagent.com/smart-forms-installation-as-module</link>
+      <pubDate>Fri, 06 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://integrationagent.com/smart-forms-installation-as-module</guid>
+      <description>
+
 &lt;h3 id=&#34;smart-forms-for-hubspot-can-help-you-increase-signup-conversion-by-17&#34;&gt;Smart Forms for HubSpot can help you increase signup conversion by 17%.&lt;/h3&gt;
 
 &lt;p&gt;You probably know, that popup forms are very effective in terms of converting your visitors to subscribers, but at the same time they can be very annoying to users that can lead to a high bounce rate.&lt;/p&gt;

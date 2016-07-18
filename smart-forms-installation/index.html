@@ -92,118 +92,87 @@
                 <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
                   
 
-<h3 id="smart-forms-for-hubspot-can-help-you-increase-signup-conversion-by-17">Smart Forms for HubSpot can help you increase signup conversion by 17%.</h3>
+<p><script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<script type="text/javascript" src="https://integrationagent.com/js/generator.js"></script>
+<link rel="stylesheet" type="text/css" href="https://integrationagent.com/css/generator.css" media="screen" /></p>
 
-<p>You probably know, that popup forms are very effective in terms of converting your visitors to subscribers, but at the same time they can be very annoying to users that can lead to a high bounce rate.</p>
+<p>To install Smart Forms, add a custom HTML module to a page or template and copy the generated code:</p>
 
-<p>Smart Forms provides a compromise of effective and user friendly way to increase forms conversion rate.</p>
+<div ng-app="formGenerator" ng-controller="formGeneratorCtrl">
+    <form name="generator">
+        <div ng-form name="portal">
+            <div>Portal Id *</div>
+            <input name="portalInput"
+            ng-model="PortalId"
+            class="Input"
+            spellcheck="false"
+            required placeholder="Your HubSpot Portal Id">
+            <span ng-show="portal.portalInput.$touched && portal.portalInput.$invalid">Please enter the value</span>
+        </div>
+        <div ng-form name="formId">
+            <div>Form Id *</div>
+            <input name="formIdInput"
+            ng-model="FormId"
+            class="Input"
+            spellcheck="false"
+            required placeholder="Id of the form to show">
+            <span ng-show="formId.formIdInput.$touched && formId.formIdInput.$invalid">Please enter the value</span>
+        </div>
+        <div ng-form name="title">
+            <div>Form Title *</div>
+            <input name="titleInput"
+            ng-model="Title"
+            class="Input"
+            spellcheck="false"
+            required placeholder="Form Title">
+            <span ng-show="title.titleInput.$touched && title.titleInput.$invalid">Please enter the value</span>
+        </div>
+        <div ng-form name="triggerTime">
+            <div>Trigger Time</div>
+            <input ng-model="TriggerTime"
+            class="Input"
+            spellcheck="false" placeholder="Time in seconds to appear">
+        </div>
+        <div ng-form name="customErrorMessage">
+            <div>Custom error message</div>
+            <input ng-model="CustomErrorMessage"
+            class="Input"
+            spellcheck="false" placeholder="Custom Error Message">
+        </div>
+        <div ng-form name="disableOnMobile">
+            <input ng-model="DisableOnMobile"
+                type="checkbox" />
+            <label>Disable on mobile</label>
+        </div>
+        <div><button type="submit"
+                class="Button"
+                ng-disabled="generator.$invalid"
+                ng-click="showSnippet(); showed=true">Generate Code</button>
+        </div>
+    </form>
+    <div>
+        <textarea ng-model="snippet" ng-show="showed"
+            spellcheck="false" class="generated_code"
+            readonly></textarea>
+    </div>
+</div>
 
-<h3 id="features">Features</h3>
+<p></p>
+<p></p>
 
-<ul>
-<li>HubSpot native.</li>
-<li>Built specifically for HubSpot, you can use like any other module.</li>
-<li>Mobile ready</li>
-<li>Slide in form, doesn&#8217;t block content</li>
-<li>Timed based appearance</li>
-<li>If a user closes the form – it wouldn&#8217;t show up for the next 24 hours.</li>
-<li>If a user submitted the form, the popup for this specific form will never be shown again.</li>
-<li>Scroll-Based (in development)</li>
-<li>Exit-Intent (in development)</li>
-</ul>
+<h4 id="copy-form-id-to-the-generator">Copy Form Id to the generator</h4>
 
-<p><a href="http://intagent.wpengine.com/wp-content/uploads/2015/11/smart_forms.png"><img class="aligncenter wp-image-18 size-full" src="http://intagent.wpengine.com/wp-content/uploads/2015/11/smart_forms.png" alt="smart_forms" width="954" height="692" srcset="https://integrationagent.com/img/smart_forms.png 954w, https://integrationagent.com/img/smart_forms-300x218.png 300w, https://integrationagent.com/img/smart_forms-644x467.png 644w" sizes="(max-width: 954px) 100vw, 954px" /></a></p>
+<p><img src="https://integrationagent.com/img/form-installation/form_id.png" /></p>
 
-<p>&nbsp;</p>
+<h4 id="add-a-custom-html-module-to-a-page-or-template-and-copy-the-generated-code">Add a &ldquo;Custom HTML&rdquo; module to a page or template and copy the generated code</h4>
 
-<h3 id="installation">Installation</h3>
+<p><img src="https://integrationagent.com/img/form-installation/html_module.png" /></p>
 
+<p>
+Also, you can add the form as a custom module to HubSpot:<br/>
+<a href="https://integrationagent.com/smart-forms-installation-as-module">Advanced Intructions</a>
 
-<div style="position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;">
-  <iframe src="//www.youtube.com/embed/SJQAtTi2B3Y" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" allowfullscreen frameborder="0"></iframe>
- </div>
-
-
-<p><br/></p>
-
-<ol>
-<li>To install Smart Forms and use it as HubSpot module you have to create a custom module first. Go to you HubSpot portal an then:</li>
-</ol>
-
-<p style="padding-left: 30px;">
-  <em style="background-color: #f7f7b5;">Content → Design Manager →  Custom Modules → New Custom Module</em>
 </p>
-
-<p style="padding-left: 30px;">
-  Name it as &#8220;Smart Forms&#8221;.
-</p>
-
-<ol>
-<li>Then to control your forms we need to add 3 text fields: <strong>Form Id</strong>,<strong>Title</strong>, <strong>Trigger Time.</strong> Make sure to use the same names.</li>
-</ol>
-
-<p style="padding-left: 30px;">
-  <a href="http://intagent.wpengine.com/wp-content/uploads/2015/11/new_field.png"><img class="alignnone wp-image-16 size-full" src="http://intagent.wpengine.com/wp-content/uploads/2015/11/new_field.png" alt="new_field" width="730" height="624" srcset="https://integrationagent.com/img/new_field.png 730w, https://integrationagent.com/img/new_field-300x256.png 300w, https://integrationagent.com/img/new_field-644x550.png 644w" sizes="(max-width: 730px) 100vw, 730px" /></a><strong><br /> </strong>
-</p>
-
-<ol>
-<li>Copy this code into the module body:</li>
-</ol>
-
-<pre class="theme:github font-size:14 inline-margin:10 lang:default decode:true ">&lt;link rel="stylesheet" type="text/css" href="https://integrationagent.s3.amazonaws.com/smartforms/smartforms.min.css" /&gt;
-&lt;script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"&gt;&lt;/script&gt;
-&lt;script src="https://integrationagent.s3.amazonaws.com/smartforms/smartforms.min.js"&gt;&lt;/script&gt;
-&lt;script&gt;
-    $(document).ready( function() {
-        HSPopup.init({
-            formId: '{{widget.form_id}}',
-            portalId: '{{ hub_id }}',
-            title: '{{widget.title}}',
-            triggerTime: '{{widget.trigger_time}}'
-        });
-
-        HSPopup.showPopup();
-    });
-&lt;/script&gt;
-&lt;img src="https://integrationagent.s3.amazonaws.com/img/smart_forms.png" class="smart_forms_logo" /&gt;
-
-</pre>
-
-<p>The module will look like this:</p>
-
-<p><img class="aligncenter wp-image-17 size-full" src="http://intagent.wpengine.com/wp-content/uploads/2015/11/custom_module.png" alt="custom_module" width="1283" height="413" srcset="https://integrationagent.com/img/custom_module.png 1283w, https://integrationagent.com/img/custom_module-300x97.png 300w, https://integrationagent.com/img/custom_module-644x207.png 644w" sizes="(max-width: 1283px) 100vw, 1283px" /></p>
-
-<h3 id="to-add-the-module-to-a-page">To add the module to a page</h3>
-
-<ol>
-<li>Drag and drop &#8220;Smart Forms&#8221; module to any place on the page.</li>
-</ol>
-
-<p><a href="http://intagent.wpengine.com/wp-content/uploads/2015/11/module2.png"><img class="aligncenter wp-image-20 size-full" src="http://intagent.wpengine.com/wp-content/uploads/2015/11/module2.png" alt="module2" width="359" height="409" srcset="https://integrationagent.com/img/module2.png 359w, https://integrationagent.com/img/module2-263x300.png 263w" sizes="(max-width: 359px) 100vw, 359px" /></a></p>
-
-<ol>
-<li>Let&#8217;s click on edit button and configure the form.</li>
-</ol>
-
-<p><img class="aligncenter wp-image-19 size-full" src="http://intagent.wpengine.com/wp-content/uploads/2015/11/module3.png" alt="module3" width="527" height="415" srcset="https://integrationagent.com/img/module3.png 527w, https://integrationagent.com/img/module3-300x236.png 300w" sizes="(max-width: 527px) 100vw, 527px" /></p>
-
-<p><strong>Form Id: </strong>Id of the HubSpot form you want to embed, to get the Id, open form editor and copy id from the url, e.g.</p>
-
-<p><a href="https://app.hubspot.com/forms/1670983/">https://app.hubspot.com/forms/1670983/</a><span style="background-color: #f7f7b5; text-decoration: underline">c3794ad3-f6a7-4c98-841d-98062636baab</span>/edit/</p>
-
-<p><strong>Title</strong>: The text that will be shown as form header.</p>
-
-<p><strong>Trigger Time</strong>: Time in seconds for the form to appear.</p>
-
-<p>That&#8217;s it, in our case the form will show up in 30 seconds, it will automatically disappear after form completion.</p>
-
-<h3 id="to-add-the-module-to-a-template">To add the module to a template</h3>
-
-<p>Drag and drop &#8220;HubL Template&#8221; module to any spot on the template, modify the options with the following code:</p>
-
-<pre class="lang:default decode:true ">{% custom_widget "smart_forms_widget" widget_name='Smart Forms' form_id='[FORM_ID]', title='[TITLE]', trigger_time='[SECONDS]' %}</pre>
-
-<p>&nbsp;</p>
 
                 </div>
             </div>
