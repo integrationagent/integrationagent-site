@@ -4,6 +4,7 @@ author: Peter
 type: blog
 date: 2015-12-15
 aliases: ["/4-ultimate-tips-that-can-help-you-to-manage-your-hubspot-account/"]
+image: "/img/4tips/cover.png"
 dsq_thread_id:
   - 4406896236
 categories:

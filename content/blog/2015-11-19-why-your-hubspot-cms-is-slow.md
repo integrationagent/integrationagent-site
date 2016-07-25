@@ -3,6 +3,7 @@ title: A Deep Dive into Why Your HubSpot CMS Is Slow
 author: intagent
 date: 2015-11-19
 aliases: ["/why-your-hubspot-cms-is-slow/"]
+image: "/img/slow/cover.png"
 dsq_thread_id:
   - 4334143449
 categories:

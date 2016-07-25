@@ -3,6 +3,7 @@ title: How to display custom error message in HubSpot form
 author: Peter
 date: 2015-12-16
 aliases: ["/custom-form-message/"]
+image: "/img/custom-error/cover.png"
 dsq_thread_id:
   - 4409768319
 categories:

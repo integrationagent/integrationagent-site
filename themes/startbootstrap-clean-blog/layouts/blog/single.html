@@ -1,10 +1,5 @@
 {{ partial "header.html" .}}
 
-    <!-- Page Header -->
-    <!-- Set your background image for this header on the line below. -->
-    <!--{{ if isset .Params "image" }}<header class="intro-header" style="background-image: url('{{ .Site.BaseURL }}/{{ .Params.image }}')">-->
-      <!--{{ else }}<header class="intro-header" style="background-image: url('/img/post-bg.jpg')">-->
-    <!--{{ end }}-->
       <div class="container">
         <div class="row">
            <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
@@ -12,7 +7,7 @@
                <h1>{{ .Title }}</h1>
                <!--<h2 class="subheading">{{ .Description }}</h2>-->
                <span class="post-meta">Posted by {{ .Params.author }} on {{ dateFormat .Site.Params.DateForm .Date }}
-                 <!--<br />-->
+                   <!--<br />-->
                  <!--{{ partial "categories.html" . }}-->
                  <!--<br />-->
                  <!--{{ partial "tags.html" . }}-->
@@ -28,9 +23,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
-                  {{ .Content }}
+                    {{ if isset .Params "image" }}
+                        <img src="{{ .Site.BaseURL }}/{{ .Params.image }}" />
+                    {{ end }}
 
-                {{ template "_internal/disqus.html" . }}
+                    {{ .Content }}
+
+                    {{ template "_internal/disqus.html" . }}
                 </div>
             </div>
         </div>

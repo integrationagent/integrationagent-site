@@ -3,6 +3,7 @@ title: Why Integrating Your HubSpot with Other CMS’s is Your Major Undoing
 author: intagent
 date: 2015-12-03
 aliases: ["/why-integrating-your-hubspot-with-other-cmss-is-your-major-undoing/"]
+image: "/img/undoing/cover.png"
 dsq_thread_id:
   - 4351733086
 categories:

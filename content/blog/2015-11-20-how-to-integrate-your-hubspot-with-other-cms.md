@@ -3,6 +3,7 @@ title: How to Integrate Your HubSpot with other CMSs
 author: intagent
 date: 2015-11-20
 aliases: ["/how-to-integrate-your-hubspot-with-other-cms/"]
+image: "/img/integrate-cms/cover.png"
 url:
 dsq_thread_id:
   - 4336172287
