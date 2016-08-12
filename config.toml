@@ -16,7 +16,7 @@ disqusShortname = "integrationagent"
   Description = "Integration Agent"
   Author = "Denis Lunev"
   email = "denis@integrationagent.com"
-  Ganalytics = "UA-7712728-16"
+  Ganalytics = "UA-7712728-14"
 
 [[menu.main]]
   name = "Blog"
