@@ -10,7 +10,7 @@ draft = false
 
 {{< cta text="SaaS Marketing Essentials Masterclass Giveaway" button="Enter To Win" link="http://www.idea2saas.com/giveaway?ref=intagent" >}}
 
-Just imagine going through all the trouble of researching and coming up with a SaaS idea—because you think people would want it—only for it to flop. It’s quite disheartening to spend an inordinate amount of time conceptualizing, designing and creating a product idea only to find out that your efforts have been futile. 
+Just imagine going through all the trouble of researching and coming up with a SaaS idea — because you think people would want it — only for it to flop. It’s quite disheartening to spend an inordinate amount of time conceptualizing, designing and creating a product idea only to find out that your efforts have been futile. 
 
 This blog will walk you through all the steps that you need to validate your next big SaaS idea. Hopefully, you can prevent all those unnecessary costs and despairs of flopping product ideas. Are you ready?
 ## SaaS Idea Validation Overview
@@ -26,7 +26,7 @@ Ideally, the core philosophy in validating a product idea is to develop somethin
 
 ## 1. Understanding the market 
 The main objective of this stage is to develop a product that satisfies a “hungry” market. When people are starved, that’s a problem that requires a solution. When people feel disconnected from one another, then that’s a problem that requires a solution. You should think critically about any market problem and attempt to solve it. 
-You’ll always find a ton of problems that users are facing. The more pressing the problem, the more likely users will be willing to spend money to solve that problem. Each type of industry—ranging from health to hospitality to education—has its own problems that require solutions. Your goal in this first stage is to find “hungry” people—which is your market. 
+You’ll always find a ton of problems that users are facing. The more pressing the problem, the more likely users will be willing to spend money to solve that problem. Each type of industry — ranging from health to hospitality to education — has its own problems that require solutions. Your goal in this first stage is to find “hungry” people — which is your market. 
 You may ask yourself, “How can I understand the market?”
 The answer is simple: By using a variety of tools such as keyword research, Amazon search engine and deep-dive survey, you can determine what problems the customers are facing. 
 
@@ -45,7 +45,7 @@ Listen very carefully and watch out for any red flags to make sure you get a spe
 ## 5. Minimum viable product validation (MVP)
 The main aim of MVP validation is to approve or disapprove your product idea. Many SaaS companies that fall in the B2B category allow free trials or demonstration of their products. You can apply these tactics and get testimonials in exchange. The testimonials can help you to improve on the product idea. 
 
-You don't have to hire a bunch of people just to build MVP, you can seek help from companies that <a href="http://idea2saas.com">specialize in SaaS MVP development</a>. 
+You don't have to hire a bunch of people just to build MVP, you can seek help from <a href="http://idea2saas.com">companies</a> that specialize in SaaS MVP development. 
 
 ## Final thoughts
 SaaS idea validation is critical to the successful actualization of your business ideas. When executed correctly, it can be your competitive advantage. On the contrary, if your product idea hasn’t undergone validation, then the creative skill that you have in you can be killed. How will you validate your next SaaS idea? Good luck.
