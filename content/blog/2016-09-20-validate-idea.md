@@ -51,5 +51,5 @@ You don't have to hire a bunch of people just to build MVP, you can seek help fr
 SaaS idea validation is critical to the successful actualization of your business ideas. When executed correctly, it can be your competitive advantage. On the contrary, if your product idea hasn’t undergone validation, then the creative skill that you have in you can be killed. How will you validate your next SaaS idea? Good luck.
 
 {{< cta text="SaaS Marketing Essentials Masterclass Giveaway" button="Enter To Win" link="http://www.idea2saas.com/giveaway?ref=intagent" >}}
-
-
+<br/>
+<br/>
