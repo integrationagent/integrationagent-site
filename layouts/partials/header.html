@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<meta name="google-site-verification" content="Kw_Hzk9A0TQehx9xinZ9fel00w2qZudaKlB8izb4mxA"/>
+
+		<title>{{ .Title }} – {{ .Site.Title }}</title>
+
+		{{ if .RSSlink }}
+		<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}"/>
+		<link href="{{ .RSSlink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}"/>
+		{{ end }}
+
+		<!-- Bootstrap Core CSS -->
+		<!--<link href="{{ .Site.BaseURL }}/css/bootstrap.min.css" rel="stylesheet">-->
+		<link href="{{ .Site.BaseURL }}/assets/styles/main.css" rel="stylesheet">
+		<link href="{{ .Site.BaseURL }}/css/custom.css" rel="stylesheet">
+		<!--<link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/styles/vex.css" />-->
+		<!--<link rel="stylesheet" href="{{ .Site.BaseURL }}/assets/styles/vex-theme-default.css" />-->
+
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic'
+		      rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+
+		<link rel="icon" type="image/png" href="/img/logo_loader.png">
+
+	</head>
+
+	<body>
+		<div id="main">
+			<div class="layout">
+				<div class="layout--header">
+
+					<!-- Navigation -->
+					<div class="header">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-3 col-md-3">
+									<div class="header--logo logo">
+										<a href="{{ .Site.BaseURL }}">
+											<img src="{{ .Site.BaseURL }}/img/logo_small.png" alt=""/>
+										</a>
+									</div>
+								</div>
+								<div class="col-lg-9 col-md-9 visible-md-block visible-lg-block">
+									<div class="header--left">
+
+										{{ partial "navbar.html" . }}
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+
+						<div class="header--menu_opener visible-xs-block visible-sm-block">
+							<span class="c-hamburger c-hamburger--htx">
+								<span>toggle menu</span>
+							</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+

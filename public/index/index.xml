@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Indexes on Integration Agent - Get the most out of your marketing automation</title>
+    <link>https://integrationagent.com/index/</link>
+    <description>Recent content in Indexes on Integration Agent - Get the most out of your marketing automation</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Integration Agent 2016</copyright>
+    <lastBuildDate>Tue, 20 Sep 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://integrationagent.com/index/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How To Validate Your SaaS idea</title>
+      <link>https://integrationagent.com/</link>
+      <pubDate>Tue, 20 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://integrationagent.com/</guid>
+      <description>&lt;div id=&#34;main&#34;&gt;
+    &lt;div class=&#34;layout&#34;&gt;
+        &lt;div class=&#34;layout--container&#34;&gt;
+
+            &lt;!-- Main Slider --&gt;
+            &lt;section class=&#34;main_slider&#34;&gt;
+                &lt;div class=&#34;main_slider--slides js-main_slider_ _owl-carousel&#34;&gt;
+                    &lt;div class=&#34;slide_promo&#34; style=&#34;background:url({{ .Site.BaseURL }}assets/images/design/comp.jpg); background-size: cover;&#34;&gt;
+                        &lt;div class=&#34;container&#34;&gt;
+                            &lt;div class=&#34;row&#34;&gt;
+                                &lt;div class=&#34;col-md-12 col-xs-12&#34;&gt;
+                                    &lt;h2 class=&#34;slide_promo--title&#34;&gt;
+                                        Custom Software Development for Smart Companies
+                                    &lt;/h2&gt;
+                                    &lt;p class=&#34;slide_promo--description&#34;&gt;
+                                        Is software essential for your business? Your development partner is here.
+                                    &lt;/p&gt;
+                                    &lt;footer class=&#34;slide_promo--footer&#34;&gt;
+                                        &lt;button class=&#34;button -orange -large&#34; type=&#34;button&#34;&gt;
+                                            LET&#39;S TALK ABOUT YOUR PROJECT
+                                        &lt;/button&gt;
+                                        &lt;!--&lt;button class=&#34;button -secondary -large&#34; type=&#34;button&#34;&gt;--&gt;
+                                            &lt;!--GET IN TOUCH--&gt;
+                                        &lt;!--&lt;/button&gt;--&gt;
+                                    &lt;/footer&gt;
+                                &lt;/div&gt;
+
+&lt;pre&gt;&lt;code&gt;                        &amp;lt;/div&amp;gt;
+                    &amp;lt;/div&amp;gt;
+                &amp;lt;/div&amp;gt;
+
+            &amp;lt;/div&amp;gt;
+        &amp;lt;/section&amp;gt;
+        &amp;lt;!-- /Main Slider --&amp;gt;
+
+        &amp;lt;section class=&amp;quot;section&amp;quot;&amp;gt;
+                &amp;lt;div class=&amp;quot;section--inner container&amp;quot;&amp;gt;
+                    &amp;lt;header class=&amp;quot;section--header&amp;quot;&amp;gt;
+                        &amp;lt;h2 class=&amp;quot;section--title&amp;quot;&amp;gt;Our Expertise&amp;lt;/h2&amp;gt;
+                    &amp;lt;/header&amp;gt;
+                    &amp;lt;div class=&amp;quot;features_sun&amp;quot;&amp;gt;
+                        &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
+                            &amp;lt;div class=&amp;quot;col-md-4 col-md-push-4 col-md-offset-0 col-xs-6 col-xs-offset-3&amp;quot;&amp;gt;
+                                &amp;lt;div class=&amp;quot;features_sun--picture&amp;quot;&amp;gt;
+                                    &amp;lt;img src=&amp;quot;./assets/images/design/grouped/penta.png&amp;quot; alt=&amp;quot;&amp;quot;&amp;gt;
+                                &amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+
+                            &amp;lt;div class=&amp;quot;col-md-4 col-md-pull-4 col-sm-6 col-xs-12&amp;quot;&amp;gt;
+                                &amp;lt;div class=&amp;quot;features_sun--content&amp;quot;&amp;gt;
+                                    &amp;lt;ul class=&amp;quot;features_sun--list&amp;quot;&amp;gt;
+                                        &amp;lt;li class=&amp;quot;features_sun--list_item&amp;quot;&amp;gt;
+                                            &amp;lt;i class=&amp;quot;features_sun--list_item_bullet bi_interface-arrow-right&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;Design and architecture
+                                        &amp;lt;/li&amp;gt;
+                                        &amp;lt;li class=&amp;quot;features_sun--list_item&amp;quot;&amp;gt;
+                                            &amp;lt;i class=&amp;quot;features_sun--list_item_bullet bi_interface-arrow-right&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;Experts in cloud native applications
+                                        &amp;lt;/li&amp;gt;
+                                        &amp;lt;li class=&amp;quot;features_sun--list_item&amp;quot;&amp;gt;
+                                            &amp;lt;i class=&amp;quot;features_sun--list_item_bullet bi_interface-arrow-right&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;Frequent release cycles &amp;amp; scalable architecture
+                                        &amp;lt;/li&amp;gt;
+                                    &amp;lt;/ul&amp;gt;
+                                &amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+
+                            &amp;lt;div class=&amp;quot;col-md-4 col-sm-6 col-xs-12&amp;quot;&amp;gt;
+                                &amp;lt;div class=&amp;quot;features_sun--content -right&amp;quot;&amp;gt;
+                                    &amp;lt;ul class=&amp;quot;features_sun--list&amp;quot;&amp;gt;
+                                        &amp;lt;li class=&amp;quot;features_sun--list_item&amp;quot;&amp;gt;
+                                            &amp;lt;i class=&amp;quot;features_sun--list_item_bullet bi_interface-arrow-right&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;Microservices driven architecture
+                                        &amp;lt;/li&amp;gt;
+                                        &amp;lt;li class=&amp;quot;features_sun--list_item&amp;quot;&amp;gt;
+                                            &amp;lt;i class=&amp;quot;features_sun--list_item_bullet bi_interface-arrow-right&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;Analytics solutions
+                                        &amp;lt;/li&amp;gt;
+                                        &amp;lt;li class=&amp;quot;features_sun--list_item&amp;quot;&amp;gt;
+                                            &amp;lt;i class=&amp;quot;features_sun--list_item_bullet bi_interface-arrow-right&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;Payment gateways integrations
+                                        &amp;lt;/li&amp;gt;
+                                    &amp;lt;/ul&amp;gt;
+                                &amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+                        &amp;lt;/div&amp;gt;
+                    &amp;lt;/div&amp;gt;
+                &amp;lt;/div&amp;gt;
+            &amp;lt;/section&amp;gt;
+
+        &amp;lt;!-- Services --&amp;gt;
+
+        &amp;lt;section class=&amp;quot;section -odd -dark&amp;quot; style=&amp;quot;background: url({{ .Site.BaseURL }}/assets/images/design/strong_points-dark_bg.jpg) #1e3753;&amp;quot;&amp;gt;
+                &amp;lt;div class=&amp;quot;section--inner container&amp;quot;&amp;gt;
+                    &amp;lt;header class=&amp;quot;section--header&amp;quot;&amp;gt;
+                        &amp;lt;h2 class=&amp;quot;section--title&amp;quot;&amp;gt;Services&amp;lt;/h2&amp;gt;
+                    &amp;lt;/header&amp;gt;
+                    &amp;lt;div class=&amp;quot;section--container&amp;quot;&amp;gt;
+                        &amp;lt;div class=&amp;quot;strong_points -dark&amp;quot;&amp;gt;
+                            &amp;lt;div class=&amp;quot;strong_points--list&amp;quot;&amp;gt;
+                                &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
+
+                                    &amp;lt;!-- item --&amp;gt;
+                                    &amp;lt;div class=&amp;quot;col-md-4 col-sm-6 col-xs-12&amp;quot;&amp;gt;
+
+                                        &amp;lt;div class=&amp;quot;strong_points--item&amp;quot;&amp;gt;
+                                            &amp;lt;h3 class=&amp;quot;strong_points--item_title&amp;quot;&amp;gt;Enterprise Web Applications&amp;lt;/h3&amp;gt;
+                                            &amp;lt;div class=&amp;quot;strong_points--item_content&amp;quot;&amp;gt;
+                                                &amp;lt;div class=&amp;quot;strong_points--item_image -circle&amp;quot;&amp;gt;
+                                                    &amp;lt;i class=&amp;quot;bi_building-office-a&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+                                                &amp;lt;/div&amp;gt;
+                                                &amp;lt;p class=&amp;quot;strong_points--item_text&amp;quot;&amp;gt;
+                                                    We have solid skills and deep expertise in building enterprise solutions of various complexity levels. Our experience in BPM, ERP, CRM and BiG Data allows us to provide our customers with the best-practice custom solutions.
+                                                &amp;lt;/p&amp;gt;
+                                            &amp;lt;/div&amp;gt;
+                                        &amp;lt;/div&amp;gt;
+
+                                    &amp;lt;/div&amp;gt;
+                                    &amp;lt;!-- /item --&amp;gt;
+
+                                    &amp;lt;!-- item --&amp;gt;
+                                    &amp;lt;div class=&amp;quot;col-md-4 col-sm-6 col-xs-12&amp;quot;&amp;gt;
+
+                                        &amp;lt;div class=&amp;quot;strong_points--item&amp;quot;&amp;gt;
+                                            &amp;lt;h3 class=&amp;quot;strong_points--item_title&amp;quot;&amp;gt;SAAS&amp;lt;/h3&amp;gt;
+                                            &amp;lt;div class=&amp;quot;strong_points--item_content&amp;quot;&amp;gt;
+                                                &amp;lt;div class=&amp;quot;strong_points--item_image -circle&amp;quot;&amp;gt;
+                                                    &amp;lt;i class=&amp;quot; bi_interface-cloud-upload&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+                                                &amp;lt;/div&amp;gt;
+                                                &amp;lt;p class=&amp;quot;strong_points--item_text&amp;quot;&amp;gt;
+                                                    We&#39;ve created a SaaS platform that allows us to build SaaS very fast. Standard features include user and plan management, payment, analytics and support tools integrations.
+                                                &amp;lt;/p&amp;gt;
+                                            &amp;lt;/div&amp;gt;
+                                        &amp;lt;/div&amp;gt;
+
+                                    &amp;lt;/div&amp;gt;
+                                    &amp;lt;!-- /item --&amp;gt;
+
+                                    &amp;lt;!-- item --&amp;gt;
+                                    &amp;lt;div class=&amp;quot;col-md-4 col-sm-6 col-xs-12&amp;quot;&amp;gt;
+                                        &amp;lt;div class=&amp;quot;strong_points--item&amp;quot;&amp;gt;
+                                            &amp;lt;h3 class=&amp;quot;strong_points--item_title&amp;quot;&amp;gt;System Integrations&amp;lt;/h3&amp;gt;
+                                            &amp;lt;div class=&amp;quot;strong_points--item_content&amp;quot;&amp;gt;
+                                                &amp;lt;div class=&amp;quot;strong_points--item_image -circle&amp;quot;&amp;gt;
+                                                    &amp;lt;i class=&amp;quot;bi_setting-gear-a&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+                                                &amp;lt;/div&amp;gt;
+                                                &amp;lt;p class=&amp;quot;strong_points--item_text&amp;quot;&amp;gt;
+                                                    Our team can help you connect multiple systems via API, migrate from one service to another or transform your data (deduplication, clean up, enrichment).
+                                                &amp;lt;/p&amp;gt;
+                                            &amp;lt;/div&amp;gt;
+                                        &amp;lt;/div&amp;gt;
+
+                                    &amp;lt;/div&amp;gt;
+                                    &amp;lt;!-- /item --&amp;gt;
+
+                                &amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+                            &amp;lt;footer class=&amp;quot;strong_points--footer&amp;quot;&amp;gt;
+                                &amp;lt;button class=&amp;quot;button -turquoise -large&amp;quot; type=&amp;quot;button&amp;quot;&amp;gt;
+                                FREE SEO ANALYSIS
+                            &amp;lt;/button&amp;gt;
+                                &amp;lt;button class=&amp;quot;button -primary -large&amp;quot; type=&amp;quot;button&amp;quot;&amp;gt;
+                                GET IN TOUCH
+                            &amp;lt;/button&amp;gt;
+                            &amp;lt;/footer&amp;gt;
+                        &amp;lt;/div&amp;gt;
+                    &amp;lt;/div&amp;gt;
+                &amp;lt;/div&amp;gt;
+            &amp;lt;/section&amp;gt;
+
+        &amp;lt;!-- /Services --&amp;gt;
+
+        &amp;lt;!-- TESTIMONIALS --&amp;gt;
+        &amp;lt;section class=&amp;quot;section -odd&amp;quot;&amp;gt;
+            &amp;lt;div class=&amp;quot;section--inner container&amp;quot;&amp;gt;
+                &amp;lt;header class=&amp;quot;section--header&amp;quot;&amp;gt;
+                    &amp;lt;h2 class=&amp;quot;section--title&amp;quot;&amp;gt;TESTIMONIALS&amp;lt;/h2&amp;gt;
+                    &amp;lt;p class=&amp;quot;section--description&amp;quot;&amp;gt;
+                        Hear what our clients have to say &amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+                    &amp;lt;/p&amp;gt;
+                &amp;lt;/header&amp;gt;
+
+                &amp;lt;div class=&amp;quot;section--container&amp;quot;&amp;gt;
+                    &amp;lt;div class=&amp;quot;testimonials&amp;quot;&amp;gt;
+                        &amp;lt;div class=&amp;quot;testimonials--list&amp;quot;&amp;gt;
+
+                            &amp;lt;div class=&amp;quot;testimonials--item&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image&amp;quot;&amp;gt;
+                                    &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/img/testimonials/michael.png&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;testimonials--item_content&amp;quot;&amp;gt;
+                                    &amp;lt;p class=&amp;quot;testimonials--item_text&amp;quot;&amp;gt;
+                                        Denis with Integration Agent developed a Salesforce.com Performance Calculator tool for our microturbine electric generator products.
+                                        &amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+                                        Denis was very professional and communicated clearly with us to finalize requirements and work through complex engineering calculations together.
+                                        &amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+                                        The Performance Calculator tool has made our distributors more independent, and has helped our distributors close more sales over the past year.
+                                        &amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+                                        Thanks Integration Agent for the excellent work!
+                                    &amp;lt;/p&amp;gt;
+                                    &amp;lt;dl class=&amp;quot;testimonials--item_author&amp;quot;&amp;gt;
+                                        &amp;lt;dt&amp;gt;Michael Hamilton&amp;lt;/dt&amp;gt;
+                                        &amp;lt;dd&amp;gt;&amp;lt;a href=&amp;quot;http://www.capstoneturbine.com/&amp;quot;&amp;gt;Applications Engineer, Capstone Turbine Corporation&amp;lt;/a&amp;gt;&amp;lt;/dd&amp;gt;
+                                    &amp;lt;/dl&amp;gt;
+                                &amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+
+                            &amp;lt;div class=&amp;quot;testimonials--item&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image&amp;quot;&amp;gt;
+                                    &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/img/testimonials/anne.png&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;testimonials--item_content&amp;quot;&amp;gt;
+                                    &amp;lt;p class=&amp;quot;testimonials--item_text&amp;quot;&amp;gt;
+                                        Denis of Integration Agent provided a cost-effective way for us to move data from a difficult-to-export system into HubSpot. We required a number of sample imports and testing of the data migration along the way. Denis was patient and thorough.
+                                    &amp;lt;/p&amp;gt;
+                                    &amp;lt;dl class=&amp;quot;testimonials--item_author&amp;quot;&amp;gt;
+                                        &amp;lt;dt&amp;gt;Anne Lehan&amp;lt;/dt&amp;gt;
+                                        &amp;lt;dd&amp;gt;&amp;lt;a href=&amp;quot;http://www.fdaimports.com/&amp;quot;&amp;gt;Marketing Director at FDAImports.com, LLC&amp;lt;/a&amp;gt;&amp;lt;/dd&amp;gt;
+                                    &amp;lt;/dl&amp;gt;
+                                &amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+
+                            &amp;lt;div class=&amp;quot;testimonials--item&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image&amp;quot;&amp;gt;
+                                    &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/img/testimonials/September.png&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;testimonials--item_content&amp;quot;&amp;gt;
+                                    &amp;lt;p class=&amp;quot;testimonials--item_text&amp;quot;&amp;gt;
+                                        Working with Denis of Integration Agent was extremely refreshing. Excellent communicator and goes beyond an expectation we had. Extremely happy with our results and the new relationship.
+                                    &amp;lt;/p&amp;gt;
+                                    &amp;lt;dl class=&amp;quot;testimonials--item_author&amp;quot;&amp;gt;
+                                        &amp;lt;dt&amp;gt;September Dohrmann&amp;lt;/dt&amp;gt;
+                                        &amp;lt;dd&amp;gt;&amp;lt;a href=&amp;quot;http://ceospaceinternational.com/&amp;quot;&amp;gt;Marketing Director at FDAImports.com, LLC&amp;lt;/a&amp;gt;&amp;lt;/dd&amp;gt;
+                                    &amp;lt;/dl&amp;gt;
+                                &amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+
+                            &amp;lt;div class=&amp;quot;testimonials--item&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image&amp;quot;&amp;gt;
+                                    &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/img/testimonials/CBWhittemore.png&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;testimonials--item_content&amp;quot;&amp;gt;
+                                    &amp;lt;p class=&amp;quot;testimonials--item_text&amp;quot;&amp;gt;
+                                        Denis developed an elegant, clean and user-friendly solution in HubSpot for an event registration module that not only integrates with HubSpot forms, but also with PayPal for payment. He was a delight to work with, responding quickly to feedback and ready with clear instructions.
+                                        &amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+                                        I highly recommend Denis with Integration Agent, and look forward to working with him again.
+                                    &amp;lt;/p&amp;gt;
+                                    &amp;lt;dl class=&amp;quot;testimonials--item_author&amp;quot;&amp;gt;
+                                        &amp;lt;dt&amp;gt;Christine B. Whittemore&amp;lt;/dt&amp;gt;
+                                        &amp;lt;dd&amp;gt;&amp;lt;a href=&amp;quot;https://www.simplemarketingnow.com/&amp;quot;&amp;gt;Chief Simplifier at Simple Marketing Now LLC &amp;lt;/a&amp;gt;&amp;lt;/dd&amp;gt;
+                                    &amp;lt;/dl&amp;gt;
+                                &amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+
+                            &amp;lt;div class=&amp;quot;testimonials--item&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image&amp;quot;&amp;gt;
+                                    &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/img/testimonials/trent.png&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;testimonials--item_content&amp;quot;&amp;gt;
+                                    &amp;lt;p class=&amp;quot;testimonials--item_text&amp;quot;&amp;gt;
+                                        Denis helped us create a workflow between Salesforce and HubSpot that wasn&#39;t present in the standard integration that exists between the two platforms.
+                                        Without too much explanation he easily understood what we were trying to accomplish, and was able to execute the project on time.
+                                        &amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+                                        I really liked that he seems to be up to speed on a lot of the newer functionality within Salesforce and was able to utilize some of these new tools (Process Builder) to reduce the number of hours needed. I would definitely recommend Denis with Integration Agent for any integration projects you might need some custom development on.
+                                    &amp;lt;/p&amp;gt;
+                                    &amp;lt;dl class=&amp;quot;testimonials--item_author&amp;quot;&amp;gt;
+                                        &amp;lt;dt&amp;gt;Trent Boorman&amp;lt;/dt&amp;gt;
+                                        &amp;lt;dd&amp;gt;&amp;lt;a href=&amp;quot;http://sasb.org/&amp;quot;&amp;gt;Systems Analyst at SASB&amp;lt;/a&amp;gt;&amp;lt;/dd&amp;gt;
+                                    &amp;lt;/dl&amp;gt;
+                                &amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+
+                            &amp;lt;div class=&amp;quot;testimonials--item&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image&amp;quot;&amp;gt;
+                                    &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/img/testimonials/kevin.png&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;testimonials--item_content&amp;quot;&amp;gt;
+                                    &amp;lt;p class=&amp;quot;testimonials--item_text&amp;quot;&amp;gt;
+                                        We’ve been fortunate finding Denis with Integration Agent and having us do HubSpot integration for us. His work has been key to getting a range of features and capabilities in place on our website. In addition, his expert counsel and quick work has been a Godsend.
+                                    &amp;lt;/p&amp;gt;
+                                    &amp;lt;dl class=&amp;quot;testimonials--item_author&amp;quot;&amp;gt;
+                                        &amp;lt;dt&amp;gt;Kevin Shayne&amp;lt;/dt&amp;gt;
+                                        &amp;lt;dd&amp;gt;&amp;lt;a href=&amp;quot;http://www.caddedge.com/&amp;quot;&amp;gt;Director of Marketing at CADD Edge&amp;lt;/a&amp;gt;&amp;lt;/dd&amp;gt;
+                                    &amp;lt;/dl&amp;gt;
+                                &amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+
+                            &amp;lt;div class=&amp;quot;testimonials--item&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image&amp;quot;&amp;gt;
+                                    &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/img/testimonials/laureen.png&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;testimonials--item_content&amp;quot;&amp;gt;
+                                    &amp;lt;p class=&amp;quot;testimonials--item_text&amp;quot;&amp;gt;
+                                        Denis from Integration Agent was a great find! He had the skills to handle our Hubspot to Freshdesk integration out of the box so there was no cost for him to learn about either platform.
+                                        We met and discussed deliverables and they were done a week later. When minor changes were requested he handled it quickly.
+                                        &amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+                                        He was available to bounce ideas off of regarding other integrations which we proceeded with and had the same speedy results.
+                                        &amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+                                        My team is very happy with how much more connected our platforms feel and how it allows them to be more productive. I whole heartedly recommend Denis and Integration Agent.
+                                    &amp;lt;/p&amp;gt;
+                                    &amp;lt;dl class=&amp;quot;testimonials--item_author&amp;quot;&amp;gt;
+                                        &amp;lt;dt&amp;gt;Laureen Jandroep&amp;lt;/dt&amp;gt;
+                                        &amp;lt;dd&amp;gt;&amp;lt;a href=&amp;quot;http://cco.us/&amp;quot;&amp;gt;CEO of Certification Coaching&amp;lt;/a&amp;gt;&amp;lt;/dd&amp;gt;
+                                    &amp;lt;/dl&amp;gt;
+                                &amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+
+                            &amp;lt;div class=&amp;quot;testimonials--item&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image&amp;quot;&amp;gt;
+                                    &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/img/testimonials/lucy.png&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;testimonials--item_content&amp;quot;&amp;gt;
+                                    &amp;lt;p class=&amp;quot;testimonials--item_text&amp;quot;&amp;gt;
+                                        We hired Denis to support us to integrate Xero to our new CRM System. Denis did a fantastic job. We agreed on a time frame for the work to be completed. Denis completed before the deadline. He was very helpful through out the process.
+                                        &amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+                                        I would highly recommend Denis with Integration Agent he is professional and reliable.
+                                    &amp;lt;/p&amp;gt;
+                                    &amp;lt;dl class=&amp;quot;testimonials--item_author&amp;quot;&amp;gt;
+                                        &amp;lt;dt&amp;gt;Lucy Doig&amp;lt;/dt&amp;gt;
+                                        &amp;lt;dd&amp;gt;&amp;lt;a href=&amp;quot;http://www.signloop.co.uk/&amp;quot;&amp;gt;CEO at Sign Loop Interpreting Services&amp;lt;/a&amp;gt;&amp;lt;/dd&amp;gt;
+                                    &amp;lt;/dl&amp;gt;
+                                &amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+
+                            &amp;lt;div class=&amp;quot;testimonials--item&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image&amp;quot;&amp;gt;
+                                    &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/img/testimonials/CL-headshot.png&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;testimonials--item_content&amp;quot;&amp;gt;
+                                    &amp;lt;p class=&amp;quot;testimonials--item_text&amp;quot;&amp;gt;
+                                        The work Integration Agent has done goes beyond what I hoped would be possible to accomplish! I&#39;d recommend the company without hesitation.
+                                    &amp;lt;/p&amp;gt;
+                                    &amp;lt;dl class=&amp;quot;testimonials--item_author&amp;quot;&amp;gt;
+                                        &amp;lt;dt&amp;gt;Chad Lawie&amp;lt;/dt&amp;gt;
+                                        &amp;lt;dd&amp;gt;&amp;lt;a href=&amp;quot;http://longerdays.com/&amp;quot;&amp;gt;CEO at Longer Days&amp;lt;/a&amp;gt;&amp;lt;/dd&amp;gt;
+                                    &amp;lt;/dl&amp;gt;
+                                &amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+
+                        &amp;lt;/div&amp;gt;
+                    &amp;lt;/div&amp;gt;
+                &amp;lt;/div&amp;gt;
+            &amp;lt;/div&amp;gt;
+        &amp;lt;/section&amp;gt;
+        &amp;lt;!-- /TESTIMONIALS --&amp;gt;
+
+        &amp;lt;!--Technologies--&amp;gt;
+        &amp;lt;section class=&amp;quot;section&amp;quot;&amp;gt;
+                &amp;lt;div class=&amp;quot;section--inner container&amp;quot;&amp;gt;
+                    &amp;lt;header class=&amp;quot;section--header&amp;quot;&amp;gt;
+                        &amp;lt;h2 class=&amp;quot;section--title&amp;quot;&amp;gt;Technologies&amp;lt;/h2&amp;gt;
+                        &amp;lt;p class=&amp;quot;section--description&amp;quot;&amp;gt;
+                            We have experience with Java technology that ranges from rapid MVP development for startups, products for e-commerce to complex big data enterprise solutions.
+                        &amp;lt;/p&amp;gt;
+                    &amp;lt;/header&amp;gt;
+
+                    &amp;lt;div class=&amp;quot;section--container&amp;quot;&amp;gt;
+                        &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
+
+                            &amp;lt;div class=&amp;quot;col-lg-2 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-md-4 col-sm-4 col col-xs-10 col-xs-offset-2&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image tech&amp;quot;&amp;gt;
+                                        &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/assets/images/design/java.png&amp;quot;/&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;tech-text&amp;quot;&amp;gt;Java&amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+                            &amp;lt;div class=&amp;quot;col-lg-2 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-md-4 col-sm-4 col col-xs-10 col-xs-offset-2&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image tech&amp;quot;&amp;gt;
+                                        &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/assets/images/design/spring-boot.png&amp;quot;/&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;tech-text&amp;quot;&amp;gt;Spring Boot&amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+                            &amp;lt;div class=&amp;quot;col-lg-2 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-md-4 col-sm-4 col col-xs-10 col-xs-offset-2&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image tech&amp;quot;&amp;gt;
+                                        &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/assets/images/design/hibernate.svg&amp;quot;/&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;tech-text&amp;quot;&amp;gt;Hibernate&amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+                            &amp;lt;div class=&amp;quot;col-lg-2 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-md-4 col-sm-4 col col-xs-10 col-xs-offset-2&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image tech&amp;quot;&amp;gt;
+                                        &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/assets/images/design/hadoop.png&amp;quot;/&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;tech-text&amp;quot;&amp;gt;Hadoop&amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+                            &amp;lt;div class=&amp;quot;col-lg-2 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-md-4 col-sm-4 col col-xs-10 col-xs-offset-2&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image tech&amp;quot;&amp;gt;
+                                        &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/assets/images/design/postgresql.jpg&amp;quot;/&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;tech-text&amp;quot;&amp;gt;PostgreSQL&amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+                            &amp;lt;div class=&amp;quot;col-lg-2 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-md-4 col-sm-4 col col-xs-10 col-xs-offset-2&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image tech&amp;quot;&amp;gt;
+                                        &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/assets/images/design/mongo.png&amp;quot;/&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;tech-text&amp;quot;&amp;gt;Mongo DB&amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+                        &amp;lt;/div&amp;gt;
+
+                        &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
+                            &amp;lt;div class=&amp;quot;col-lg-2 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-md-4 col-sm-4 col col-xs-10 col-xs-offset-2&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image tech&amp;quot;&amp;gt;
+                                        &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/assets/images/design/html5.png&amp;quot;/&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;tech-text&amp;quot;&amp;gt;HTML 5&amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+                            &amp;lt;div class=&amp;quot;col-lg-2 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-md-4 col-sm-4 col col-xs-10 col-xs-offset-2&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image tech&amp;quot;&amp;gt;
+                                        &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/assets/images/design/css3.jpg&amp;quot;/&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;tech-text&amp;quot;&amp;gt;CSS 3&amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+                            &amp;lt;div class=&amp;quot;col-lg-2 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-md-4 col-sm-4 col col-xs-10 col-xs-offset-2&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image tech&amp;quot;&amp;gt;
+                                        &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/assets/images/design/bootstrap.png&amp;quot;/&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;tech-text&amp;quot;&amp;gt;Bootstrap 3&amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+                            &amp;lt;div class=&amp;quot;col-lg-2 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-md-4 col-sm-4 col col-xs-10 col-xs-offset-2&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image tech&amp;quot;&amp;gt;
+                                        &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/assets/images/design/angular.png&amp;quot;/&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;tech-text&amp;quot;&amp;gt;Angular JS&amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+                            &amp;lt;div class=&amp;quot;col-lg-2 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-md-4 col-sm-4 col col-xs-10 col-xs-offset-2&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image tech&amp;quot;&amp;gt;
+                                        &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/assets/images/design/knockout.png&amp;quot;/&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;tech-text&amp;quot;&amp;gt;Knockout&amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+                            &amp;lt;div class=&amp;quot;col-lg-2 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-md-4 col-sm-4 col col-xs-10 col-xs-offset-2&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image tech&amp;quot;&amp;gt;
+                                        &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/assets/images/design/jquery.png&amp;quot;/&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;tech-text&amp;quot;&amp;gt;jQuery&amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+                        &amp;lt;/div&amp;gt;
+
+                        &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
+                            &amp;lt;div class=&amp;quot;col-lg-2 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-md-4 col-sm-4 col col-xs-10 col-xs-offset-2&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image tech&amp;quot;&amp;gt;
+                                        &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/assets/images/design/docker.png&amp;quot;/&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;tech-text&amp;quot;&amp;gt;Docker&amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+                            &amp;lt;div class=&amp;quot;col-lg-2 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-md-4 col-sm-4 col col-xs-10 col-xs-offset-2&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image tech&amp;quot;&amp;gt;
+                                        &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/assets/images/design/jenkins.png&amp;quot;/&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;tech-text&amp;quot;&amp;gt;Jenkins&amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+                            &amp;lt;div class=&amp;quot;col-lg-2 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-md-4 col-sm-4 col col-xs-10 col-xs-offset-2&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image tech&amp;quot;&amp;gt;
+                                        &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/assets/images/design/maven.png&amp;quot;/&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;tech-text&amp;quot;&amp;gt;Maven&amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+                            &amp;lt;div class=&amp;quot;col-lg-2 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-md-4 col-sm-4 col col-xs-10 col-xs-offset-2&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image tech&amp;quot;&amp;gt;
+                                        &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/assets/images/design/aws.png&amp;quot;/&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;tech-text&amp;quot;&amp;gt;AWS&amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+                            &amp;lt;div class=&amp;quot;col-lg-2 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-md-4 col-sm-4 col col-xs-10 col-xs-offset-2&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image tech&amp;quot;&amp;gt;
+                                        &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/assets/images/design/elastic.png&amp;quot;/&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;tech-text&amp;quot;&amp;gt;ELK&amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+                            &amp;lt;div class=&amp;quot;col-lg-2 col-lg-offset-0 col-md-offset-0 col-sm-offset-0 col-md-4 col-sm-4 col col-xs-10 col-xs-offset-2&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image tech&amp;quot;&amp;gt;
+                                        &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/assets/images/design/jfrog.png&amp;quot;/&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;tech-text&amp;quot;&amp;gt;Artifactory&amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
+                        &amp;lt;/div&amp;gt;
+
+
+                    &amp;lt;/div&amp;gt;
+                &amp;lt;/div&amp;gt;
+            &amp;lt;/section&amp;gt;
+        &amp;lt;!--/Technologies--&amp;gt;
+
+        &amp;lt;!-- trial_banner --&amp;gt;
+        &amp;lt;section class=&amp;quot;trial_banner section -odd&amp;quot; style=&amp;quot;background:url(assets/images/design/trial-banner-bg.jpg); background-size: cover;&amp;quot;&amp;gt;
+            &amp;lt;div class=&amp;quot;section--inner container&amp;quot;&amp;gt;
+                &amp;lt;div class=&amp;quot;trial_banner--icon&amp;quot;&amp;gt;&amp;lt;i class=&amp;quot;bi_sport-badge&amp;quot; style=&amp;quot;color: #a16bb8;&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;&amp;lt;/div&amp;gt;
+                &amp;lt;header class=&amp;quot;section--header&amp;quot;&amp;gt;
+                    &amp;lt;h2 class=&amp;quot;section--title trial_banner--title&amp;quot;&amp;gt;GROW YOUR BUSINESS!&amp;lt;/h2&amp;gt;
+                    &amp;lt;p class=&amp;quot;section--description trial_banner--description&amp;quot;&amp;gt;
+                        Proin quis lectus et mauris commodo blandit. Morbi rutrum libero eget nibh facilisis sollicitudin.
+                    &amp;lt;/p&amp;gt;
+                &amp;lt;/header&amp;gt;
+                &amp;lt;footer class=&amp;quot;trial_banner--footer&amp;quot;&amp;gt;
+                    &amp;lt;button class=&amp;quot;button -secondary -large&amp;quot; type=&amp;quot;button&amp;quot;&amp;gt;
+                         START A 14-DAY FREE TRIAL
+                    &amp;lt;/button&amp;gt;
+                &amp;lt;/footer&amp;gt;
+            &amp;lt;/div&amp;gt;
+        &amp;lt;/section&amp;gt;
+        &amp;lt;!-- /trial_banner --&amp;gt;
+        &amp;lt;section class=&amp;quot;footer_contacts&amp;quot; style=&amp;quot;background: #2a93de;&amp;quot;&amp;gt;
+            &amp;lt;div class=&amp;quot;section--inner container&amp;quot;&amp;gt;
+                &amp;lt;div class=&amp;quot;row&amp;quot;&amp;gt;
+                    &amp;lt;div class=&amp;quot;col-sm-4&amp;quot;&amp;gt;
+                        &amp;lt;div class=&amp;quot;footer_contacts--item&amp;quot;&amp;gt;
+                            &amp;lt;div class=&amp;quot;footer_contacts--item_wrap&amp;quot;&amp;gt;
+                                &amp;lt;p class=&amp;quot;footer_contacts--item_text&amp;quot;&amp;gt;
+                                    &amp;lt;b&amp;gt;
+                                        &amp;lt;i class=&amp;quot;bi_com-phone&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+                                        0 (855) 233-5385
+                                    &amp;lt;/b&amp;gt;
+                                    Monday - Friday, 8am - 7pm
+                                &amp;lt;/p&amp;gt;
+                            &amp;lt;/div&amp;gt;
+                        &amp;lt;/div&amp;gt;
+                    &amp;lt;/div&amp;gt;
+                    &amp;lt;div class=&amp;quot;col-sm-4&amp;quot;&amp;gt;
+                        &amp;lt;div class=&amp;quot;footer_contacts--item&amp;quot;&amp;gt;
+                            &amp;lt;div class=&amp;quot;footer_contacts--item_wrap -center&amp;quot;&amp;gt;
+                                &amp;lt;p class=&amp;quot;footer_contacts--item_text&amp;quot;&amp;gt;
+                                    &amp;lt;b&amp;gt;
+                                        &amp;lt;i class=&amp;quot;bi_com-email&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+                                        info@seocompany.com
+                                    &amp;lt;/b&amp;gt;
+                                    Drop us a line anytime!
+                                &amp;lt;/p&amp;gt;
+                            &amp;lt;/div&amp;gt;
+                        &amp;lt;/div&amp;gt;
+                    &amp;lt;/div&amp;gt;
+                    &amp;lt;div class=&amp;quot;col-sm-4&amp;quot;&amp;gt;
+                        &amp;lt;div class=&amp;quot;footer_contacts--item&amp;quot;&amp;gt;
+                            &amp;lt;div class=&amp;quot;footer_contacts--item_wrap -right&amp;quot;&amp;gt;
+                                &amp;lt;p class=&amp;quot;footer_contacts--item_text&amp;quot;&amp;gt;
+                                    &amp;lt;b&amp;gt;
+                                        &amp;lt;i class=&amp;quot;bi_com-broadcast-a&amp;quot;&amp;gt;&amp;lt;/i&amp;gt;
+                                        Request a quote
+                                    &amp;lt;/b&amp;gt;
+                                    Get all the information
+                                &amp;lt;/p&amp;gt;
+                            &amp;lt;/div&amp;gt;
+                        &amp;lt;/div&amp;gt;
+                    &amp;lt;/div&amp;gt;
+                &amp;lt;/div&amp;gt;
+            &amp;lt;/div&amp;gt;
+        &amp;lt;/section&amp;gt;
+    &amp;lt;/div&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

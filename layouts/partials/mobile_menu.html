@@ -1,0 +1,27 @@
+<div class="mobile_sidebar" id="mobile_sidebar">
+	<div class="mobile_sidebar--closer -white">
+		<button class="c-hamburger c-hamburger--htx is-active">
+			<span>toggle menu</span>
+		</button>
+	</div>
+	<div class="mobile_menu">
+		<ul class="menu">
+			{{ range .Site.Menus.main }}
+				<li class="menu-item {{if .HasChildren }} menu-item-has-children{{ end }}">
+					<a href="{{ .URL }}">{{ .Name }}</a>
+
+					{{ if .HasChildren }}
+						{{ range .Children }}
+
+						<ul class="sub-menu">
+							<li class="menu-item">
+								<a href="{{ .URL }}">{{ .Name }}</a>
+							</li>
+						</ul>
+						{{ end }}
+					{{ end }}
+				</li>
+			{{end}}
+		</ul>
+	</div>
+</div>

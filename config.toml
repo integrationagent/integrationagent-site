@@ -2,10 +2,9 @@ baseurl = "https://integrationagent.com"
 title = "Integration Agent - Get the most out of your marketing automation"
 canonifyurls = true
 paginate = 10
-theme = "startbootstrap-clean-blog"
 languageCode = "en-us"
 copyright = "Integration Agent 2016"
-
+theme = "int-agent"
 disqusShortname = "integrationagent"
 
 [author]
@@ -19,11 +18,23 @@ disqusShortname = "integrationagent"
   Ganalytics = "UA-7712728-14"
 
 [[menu.main]]
-  name = "Blog"
-  url = "/blog"
-  weight = -200
+  name = "About"
+  url = "/about"
+  weight = 1
+
+[[menu.main]]
+  name = "Services"
+  url = "#"
+  weight = 2
 
 [[menu.main]]
   name = "Products"
   url = "/products"
-  weight = -180
+  weight = 3
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog"
+  weight = 4
+
+

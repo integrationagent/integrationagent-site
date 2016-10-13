@@ -5,6 +5,7 @@ date = "2016-09-20"
 url = "/validate-your-saas-idea/"
 image = "/img/validate/cover.png"
 draft = false
+categories = ["SaaS", "Business"]
 +++
 
 

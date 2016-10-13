@@ -1,0 +1,149 @@
+{{ $.Scratch.Get "a1" }}
+<div class="contact-form-container">
+	<form class="contact-form">
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputFile">File input</label>
+    <input type="file" id="exampleInputFile">
+    <p class="help-block">Example block-level help text here.</p>
+  </div>
+  <div class="checkbox">
+    <label>
+      <input type="checkbox"> Check me out
+    </label>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form>
+</div>
+
+
+<form action="#" class="slide_free_seo--form form -thin_border -shadow send-form" _lpchecked="1">
+	<div class="form--wrap">
+		<header class="form--header">
+			<h2 class="form--title">Request a free <span style="color: #2f97d9">SEO</span> quote</h2>
+			<p class="form--description">Fill in the form below and wait for 3 days</p>
+		</header>
+		<fieldset>
+
+			<!-- row -->
+			<div class="form--row">
+
+				<div class="form--col">
+					<div class="field -medium -wide">
+						<input type="text" placeholder="Name" name="fields[name]" required="">
+						<span class="field--focus_border"></span>
+					</div>
+				</div>
+				<div class="form--col">
+					<div class="field -medium -wide">
+						<input type="text" placeholder="Last Name" name="fields[lastName]">
+						<span class="field--focus_border"></span>
+					</div>
+				</div>
+
+			</div>
+			<!-- /row -->
+
+			<!-- row -->
+			<div class="form--row">
+				<div class="form--col">
+					<div class="field -medium -wide">
+						<input type="email" placeholder="Email" name="fields[email]" required="">
+						<span class="field--focus_border"></span>
+					</div>
+				</div>
+			</div>
+			<!-- /row -->
+
+			<!-- row -->
+			<div class="form--row">
+				<div class="form--col">
+					<div class="field -medium -wide">
+						<input type="text" placeholder="Phone Number" name="fields[phone]">
+						<span class="field--focus_border"></span>
+					</div>
+				</div>
+			</div>
+			<!-- /row -->
+
+			<!-- row -->
+			<div class="form--row">
+				<div class="form--col">
+					<div class="field -medium -wide">
+						<input type="text" placeholder="Website URL" name="fields[website]" required="">
+						<span class="field--focus_border"></span>
+					</div>
+				</div>
+			</div>
+			<!-- /row -->
+
+		</fieldset>
+		<footer class="form--footer">
+			<button class="button -primary -large">Request quote</button>
+		</footer>
+	</div>
+	<div class="msg">Thank you. We have received your message.</div>
+</form>
+
+<form class="form-view some-popup" id="agile-form" action="https://intagent.agilecrm.com/formsubmit" method="GET" style="margin-bottom: 60px">
+	<input type="hidden" id="_agile_form_name" name="_agile_form_name" value="Free Trial">
+	<input type="hidden" id="_agile_domain" name="_agile_domain" value="intagent">
+	<input type="hidden" id="_agile_api" name="_agile_api" value="j8hsbftilrmafvou3heip5rm13">
+	<input type="hidden" id="_agile_redirect_url" name="_agile_redirect_url" value="http://www.depositfix.com/thankyou">
+	<input type="hidden" id="_agile_form_id_tags" name="tags" value="DepositFix, Trial">
+	<input type="hidden" id="_agile_form_id" name="_agile_form_id" value="5747080974827520">
+	<div class="cta">
+		<h1>TExt</h1>
+		<div class="buttons">
+			<input id="agilefield-1" name="email" type="email" placeholder="Your Email Address" required="" />
+			<input id="agilefield-2" name="name" type="text" placeholder="Name" required="" />
+			<button class="button">Button</button>
+		</div>
+	</div>
+</form>
+
+<script type="text/javascript">
+	(function (a) {
+		var b = a.onload, p = true;
+		if (p) {
+			a.onload = "function" != typeof b ? function () {
+				try {
+					_agile_load_form_fields()
+				} catch (a) {
+				}
+			} : function () {
+				b();
+				try {
+					_agile_load_form_fields()
+				} catch (a) {
+				}
+			}
+		}
+		;
+		a.document.forms["agile-form"].onsubmit = function (a) {
+			a.preventDefault();
+			try {
+				_agile_synch_form_v4()
+			} catch (b) {
+				this.submit()
+			}
+		}
+	})(window);
+</script>
+
+<script>
+
+	vex.open({
+        contentClassName: "contact-vex",
+		unsafeContent: $(".contact-form-container").html()
+		}
+	);
+
+</script>

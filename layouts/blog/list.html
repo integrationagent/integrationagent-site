@@ -1,0 +1,39 @@
+<article class="blog--post post">
+	<!-- entry-header -->
+	<header class="entry-header">
+		<h2 class="entry-title">
+			<a href="{{ .Permalink }}" rel="">{{ .Title }}</a>
+		</h2>
+	</header>
+	<!-- /entry-header -->
+
+	<div class="post--info2">
+		<ul class="post--info_meta">
+			<li>
+				{{ .Params.author }}
+			</li>
+
+			{{ range .Params.categories }}
+				<li>
+					<a href="/categories/{{ urlize . }}" >{{ title . }}</a>
+				</li>
+			{{ end }}
+		</ul>
+	</div>
+
+	<!-- entry-content -->
+	<div class="entry-content">
+		<figure>
+			{{ if isset .Params "image" }}
+				<a href="{{ .Permalink }}" rel="">
+					<img src="{{ .Site.BaseURL }}/{{ .Params.image }}"/>
+				</a>
+	        {{ end }}
+		</figure>
+	</div>
+
+
+	<!-- /entry-content -->
+</article>
+
+

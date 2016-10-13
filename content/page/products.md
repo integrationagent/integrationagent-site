@@ -1,18 +1,19 @@
 ---
 title: Products
-author: intagent
+author: Denis Lunev
 type: page
 date: 2015-12-15
-url: products
+url: /products
 
 ---
 * * *
-
+<div class="product">
 ### DepositFix – Payment Solution for HubSpot
 
 Accept payments using your HubSpot forms and run marketing campaigns based on purchases.
 
 <http://www.depositfix.com/>
+</div>
 
 * * *
 
@@ -25,6 +26,10 @@ You probably know, that popup forms are very effective in terms of converting yo
 Smart Forms provides a compromise of effective and user friendly way to increase forms conversion rate.
 
 #### Features
+
+* sdfd
+* sdfsd
+* fllll
 
   * HubSpot native.
   * Built specifically for HubSpot, you can use like any other module.
