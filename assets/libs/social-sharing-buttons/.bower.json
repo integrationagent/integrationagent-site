@@ -1,0 +1,12 @@
+{
+  "name": "master",
+  "_cacheHeaders": {
+    "ETag": "\"3022e70f3226e7b3bf12b29a0f0edf74d50ff435\"",
+    "Content-Type": "application/zip",
+    "Content-Disposition": "attachment; filename=social-sharing-buttons-master.zip"
+  },
+  "_release": "e-tag:3022e70f3",
+  "_source": "https://github.com/cshold/social-sharing-buttons/archive/master.zip",
+  "_target": "*",
+  "_originalSource": "https://github.com/cshold/social-sharing-buttons/archive/master.zip"
+}

@@ -7,8 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Integration Agent 2016</copyright>
-    <lastBuildDate>Mon, 25 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 12 Oct 2016 15:35:36 -0500</lastBuildDate>
     <atom:link href="https://integrationagent.com/page/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>About Integration Agent</title>
+      <link>https://integrationagent.com/about</link>
+      <pubDate>Wed, 12 Oct 2016 15:35:36 -0500</pubDate>
+      
+      <guid>https://integrationagent.com/about</guid>
+      <description>&lt;div class=&#34;about-title&#34;&gt;
+    &lt;figure class=&#34;testimonials--item_image&#34;&gt;
+        &lt;img src=&#34;https://integrationagent.com/img/testimonials/headshot.png&#34; /&gt;
+    &lt;/figure&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Integration Agent was founded by Denis Lunev in beautiful Chicago, IL.&lt;/p&gt;
+
+&lt;p&gt;Denis has been developing software for more than 9 years for a variety of companies, including fast growing startups as well as large enterprise corporations.&lt;/p&gt;
+
+&lt;p&gt;He started Integration Agent to help businesses to supercharge marketing and sales processes through the power of software.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>How to get HubSpot API key</title>
@@ -42,11 +62,13 @@
 
 &lt;hr /&gt;
 
-&lt;h3 id=&#34;depositfix-payment-solution-for-hubspot&#34;&gt;DepositFix – Payment Solution for HubSpot&lt;/h3&gt;
+&lt;div class=&#34;product&#34;&gt;
+### DepositFix – Payment Solution for HubSpot
 
-&lt;p&gt;Accept payments using your HubSpot forms and run marketing campaigns based on purchases.&lt;/p&gt;
+Accept payments using your HubSpot forms and run marketing campaigns based on purchases.
 
-&lt;p&gt;&lt;a href=&#34;http://www.depositfix.com/&#34;&gt;http://www.depositfix.com/&lt;/a&gt;&lt;/p&gt;
+&lt;http://www.depositfix.com/&gt;
+&lt;/div&gt;
 
 &lt;hr /&gt;
 
@@ -61,6 +83,12 @@
 &lt;h4 id=&#34;features&#34;&gt;Features&lt;/h4&gt;
 
 &lt;ul&gt;
+&lt;li&gt;sdfd&lt;/li&gt;
+&lt;li&gt;sdfsd&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;fllll&lt;/p&gt;
+
+&lt;ul&gt;
 &lt;li&gt;HubSpot native.&lt;/li&gt;
 &lt;li&gt;Built specifically for HubSpot, you can use like any other module.&lt;/li&gt;
 &lt;li&gt;Mobile ready&lt;/li&gt;
@@ -70,6 +98,7 @@
 &lt;li&gt;If a user submitted the form, the popup for this specific form will never be shown again.&lt;/li&gt;
 &lt;li&gt;Scroll-Based (in development)&lt;/li&gt;
 &lt;li&gt;Exit-Intent (in development)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;a href=&#34;http://integrationagent.com/smartforms&#34;&gt;Get SmartForms&lt;/a&gt;&lt;/p&gt;
