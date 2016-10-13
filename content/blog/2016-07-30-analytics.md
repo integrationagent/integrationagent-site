@@ -1,7 +1,7 @@
 +++
 date = "2016-07-30T06:23:26-05:00"
-author = Denis Lunev
-draft = true
+author = "Denis Lunev"
+draft = false
 title = "HubSpot’s Analytic Tools That You Should Be Using besides the Google Analytics"
 categories = ["HubSpot"]
 +++
