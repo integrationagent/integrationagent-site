@@ -5405,8 +5405,14 @@ li[aria-disabled="true"] {
   text-align: center;
 }
 .strong_points--item_content {
-  padding-top: 20px;
+  padding-top: 0px;
 }
+
+.strong_points--item_text_services{
+  margin-top: 10px;
+  padding-left: 90px;
+}
+
 .strong_points--item_content:after {
   content: "";
   display: table;

@@ -31,6 +31,50 @@
     </item>
     
     <item>
+      <title>Services</title>
+      <link>https://integrationagent.com/services</link>
+      <pubDate>Wed, 12 Oct 2016 15:35:36 -0500</pubDate>
+      
+      <guid>https://integrationagent.com/services</guid>
+      <description>&lt;div&gt;
+    &lt;h3&gt;Enterprise Web Applications&lt;/h3&gt;
+    &lt;div class=&#34;strong_points--item_content&#34;&gt;
+        &lt;div class=&#34;strong_points--item_image -circle&#34;&gt;
+            &lt;i class=&#34;bi_building-office-a&#34;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;p class=&#34;strong_points--item_text_services&#34;&gt;
+            We have solid skills and deep expertise in building enterprise solutions of various complexity levels. Our experience in BPM, ERP, CRM and BiG Data allows us to provide our customers with the best-practice custom solutions.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+    &lt;h3&gt;SAAS&lt;/h3&gt;
+    &lt;div class=&#34;strong_points--item_content&#34;&gt;
+        &lt;div class=&#34;strong_points--item_image -circle&#34;&gt;
+            &lt;i class=&#34; bi_interface-cloud-upload&#34;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;p class=&#34;strong_points--item_text_services&#34;&gt;
+            We&#39;ve created a SaaS platform that allows us to build SaaS very fast. Standard features include user and plan management, payment, analytics and support tools integrations.
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div&gt;
+    &lt;h3&gt;System Integrations&lt;/h3&gt;
+    &lt;div class=&#34;strong_points--item_content&#34;&gt;
+        &lt;div class=&#34;strong_points--item_image -circle&#34;&gt;
+            &lt;i class=&#34;bi_setting-gear-a&#34;&gt;&lt;/i&gt;
+        &lt;/div&gt;
+        &lt;p class=&#34;strong_points--item_text_services&#34;&gt;
+            Our team can help you connect multiple systems via API, migrate from one service to another or transform your data (deduplication, clean up, enrichment).
+        &lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>How To Validate Your SaaS idea</title>
       <link>https://integrationagent.com/validate-your-saas-idea/</link>
       <pubDate>Tue, 20 Sep 2016 00:00:00 +0000</pubDate>
@@ -1480,98 +1524,6 @@ attain your bottom line.&lt;/p&gt;
 &lt;p&gt;A slow website leads to losses of potential customers who’ll have brought in more loyal customers to your business. Therefore, you should always strive to improve the load times and performance of your website. To improve the load times and performance of your website—so that it’s not slow—you have to optimize the images, optimize the codes, optimize browser catching and finally use the plugins sparingly.&lt;/p&gt;
 
 &lt;p&gt;That’s the only way that you’ll make your slow HubSpot website or blog to have a more conversion process from prospects into loyal customers. What’s your take? Keep us posted.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Smart Forms for HubSpot</title>
-      <link>https://integrationagent.com/smart-forms-installation</link>
-      <pubDate>Fri, 06 Nov 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://integrationagent.com/smart-forms-installation</guid>
-      <description>
-
-&lt;p&gt;&lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js&#34;&gt;&lt;/script&gt;
-&lt;script type=&#34;text/javascript&#34; src=&#34;https://integrationagent.com/js/generator.js&#34;&gt;&lt;/script&gt;
-&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;https://integrationagent.com/css/generator.css&#34; media=&#34;screen&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;To install Smart Forms, add a custom HTML module to a page or template and copy the generated code:&lt;/p&gt;
-
-&lt;div ng-app=&#34;formGenerator&#34; ng-controller=&#34;formGeneratorCtrl&#34;&gt;
-    &lt;form name=&#34;generator&#34;&gt;
-        &lt;div ng-form name=&#34;portal&#34;&gt;
-            &lt;div&gt;Portal Id *&lt;/div&gt;
-            &lt;input name=&#34;portalInput&#34;
-            ng-model=&#34;PortalId&#34;
-            class=&#34;Input&#34;
-            spellcheck=&#34;false&#34;
-            required placeholder=&#34;Your HubSpot Portal Id&#34;&gt;
-            &lt;span ng-show=&#34;portal.portalInput.$touched &amp;&amp; portal.portalInput.$invalid&#34;&gt;Please enter the value&lt;/span&gt;
-        &lt;/div&gt;
-        &lt;div ng-form name=&#34;formId&#34;&gt;
-            &lt;div&gt;Form Id *&lt;/div&gt;
-            &lt;input name=&#34;formIdInput&#34;
-            ng-model=&#34;FormId&#34;
-            class=&#34;Input&#34;
-            spellcheck=&#34;false&#34;
-            required placeholder=&#34;Id of the form to show&#34;&gt;
-            &lt;span ng-show=&#34;formId.formIdInput.$touched &amp;&amp; formId.formIdInput.$invalid&#34;&gt;Please enter the value&lt;/span&gt;
-        &lt;/div&gt;
-        &lt;div ng-form name=&#34;title&#34;&gt;
-            &lt;div&gt;Form Title *&lt;/div&gt;
-            &lt;input name=&#34;titleInput&#34;
-            ng-model=&#34;Title&#34;
-            class=&#34;Input&#34;
-            spellcheck=&#34;false&#34;
-            required placeholder=&#34;Form Title&#34;&gt;
-            &lt;span ng-show=&#34;title.titleInput.$touched &amp;&amp; title.titleInput.$invalid&#34;&gt;Please enter the value&lt;/span&gt;
-        &lt;/div&gt;
-        &lt;div ng-form name=&#34;triggerTime&#34;&gt;
-            &lt;div&gt;Trigger Time&lt;/div&gt;
-            &lt;input ng-model=&#34;TriggerTime&#34;
-            class=&#34;Input&#34;
-            spellcheck=&#34;false&#34; placeholder=&#34;Time in seconds to appear&#34;&gt;
-        &lt;/div&gt;
-        &lt;div ng-form name=&#34;customErrorMessage&#34;&gt;
-            &lt;div&gt;Custom error message&lt;/div&gt;
-            &lt;input ng-model=&#34;CustomErrorMessage&#34;
-            class=&#34;Input&#34;
-            spellcheck=&#34;false&#34; placeholder=&#34;Custom Error Message&#34;&gt;
-        &lt;/div&gt;
-        &lt;div ng-form name=&#34;disableOnMobile&#34;&gt;
-            &lt;input ng-model=&#34;DisableOnMobile&#34;
-                type=&#34;checkbox&#34; /&gt;
-            &lt;label&gt;Disable on mobile&lt;/label&gt;
-        &lt;/div&gt;
-        &lt;div&gt;&lt;button type=&#34;submit&#34;
-                class=&#34;Button&#34;
-                ng-disabled=&#34;generator.$invalid&#34;
-                ng-click=&#34;showSnippet(); showed=true&#34;&gt;Generate Code&lt;/button&gt;
-        &lt;/div&gt;
-    &lt;/form&gt;
-    &lt;div&gt;
-        &lt;textarea ng-model=&#34;snippet&#34; ng-show=&#34;showed&#34;
-            spellcheck=&#34;false&#34; class=&#34;generated_code&#34;
-            readonly&gt;&lt;/textarea&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;/p&gt;
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;copy-form-id-to-the-generator&#34;&gt;Copy Form Id to the generator&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://integrationagent.com/img/form-installation/form_id.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&#34;add-a-custom-html-module-to-a-page-or-template-and-copy-the-generated-code&#34;&gt;Add a &amp;ldquo;Custom HTML&amp;rdquo; module to a page or template and copy the generated code&lt;/h4&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://integrationagent.com/img/form-installation/html_module.png&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;
-Also, you can add the form as a custom module to HubSpot:&lt;br/&gt;
-&lt;a href=&#34;https://integrationagent.com/smart-forms-installation-as-module&#34;&gt;Advanced Intructions&lt;/a&gt;
-
-&lt;/p&gt;
 </description>
     </item>
     
