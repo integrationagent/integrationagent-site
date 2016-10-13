@@ -6169,6 +6169,11 @@ li[aria-disabled="true"] {
   position: relative;
   padding: 50px 0 0;
 }
+
+.footer_main a{
+  color: #fff;
+}
+
 .footer_main--column_title {
   color: #fff;
   font-size: 17px;
@@ -10602,4 +10607,19 @@ li[aria-disabled="true"] {
 .container.content {
   padding-bottom: 50px;
   font-size: 19px;
+}
+
+.cta{
+    background-color: #336699;
+    padding: 7px 15px;
+    color: #f5f5f5;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.cta .button{
+  background-color: #ddd;
+  border: 0px;
+  color: #333;
+  margin-left: 15px;
 }

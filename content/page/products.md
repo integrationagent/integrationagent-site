@@ -7,13 +7,13 @@ url: /products
 
 ---
 * * *
-<div class="product">
+
 ### DepositFix – Payment Solution for HubSpot
 
 Accept payments using your HubSpot forms and run marketing campaigns based on purchases.
 
 <http://www.depositfix.com/>
-</div>
+
 
 * * *
 
