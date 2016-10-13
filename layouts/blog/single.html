@@ -24,18 +24,6 @@
 					{{ .Content }}
 				</div>
 				<!-- /entry-content -->
-				<div class="post--info--bottom">
-					<ul class="post--info_meta">
-						<li>
-							{{ .Params.author }}
-						</li>
-						{{ range .Params.categories }}
-							<li>
-								<a href="/categories/{{ urlize . }}" >{{ title . }}</a>
-							</li>
-						{{ end }}
-					</ul>
-				</div>
 
 				{{ template "_internal/disqus.html" . }}
 

@@ -24,7 +24,7 @@ disqusShortname = "integrationagent"
 
 [[menu.main]]
   name = "Services"
-  url = "#"
+  url = "/services"
   weight = 2
 
 [[menu.main]]
