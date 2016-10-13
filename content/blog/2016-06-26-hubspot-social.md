@@ -5,6 +5,7 @@ title = "5 HubSpot’s COS Best Tools that Can Power Your Social Media Strategie
 url = "/social-media-tools"
 author = "Denis Lunev"
 image = "/img/2016-06-26-hubspot-social/cover.png"
+categories = ["HubSpot"]
 +++
 
 Developing a website (and ultimately a blog) is the first step towards

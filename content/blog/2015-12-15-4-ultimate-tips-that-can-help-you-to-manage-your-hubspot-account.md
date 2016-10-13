@@ -1,6 +1,6 @@
 ---
 title: 4 Ultimate Tips That Can Help You to Manage Your HubSpot Account
-author: Peter
+author: Denis Lunev
 type: blog
 date: 2015-12-15
 aliases: ["/4-ultimate-tips-that-can-help-you-to-manage-your-hubspot-account/"]
@@ -8,7 +8,7 @@ image: "/img/4tips/cover.png"
 dsq_thread_id:
   - 4406896236
 categories:
-  - Uncategorized
+  - HubSpot
 
 ---
 The task of organizing a HubSpot portal can be daunting, especially if you’re a newbie. This is because you’ve just begun to figure out how the platform works without the knowledge of how to get the maximum gains of the portal.  If you knew how to organize your HubSpot Account, then you could save a great deal of time when using this amazing inbound marketing software.

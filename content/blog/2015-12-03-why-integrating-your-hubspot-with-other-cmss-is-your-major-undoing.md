@@ -1,13 +1,13 @@
 ---
 title: Why Integrating Your HubSpot with Other CMS’s is Your Major Undoing
-author: intagent
+author: Denis Lunev
 date: 2015-12-03
 aliases: ["/why-integrating-your-hubspot-with-other-cmss-is-your-major-undoing/"]
 image: "/img/undoing/cover.png"
 dsq_thread_id:
   - 4351733086
 categories:
-  - Uncategorized
+  - HubSpot, Integrations
 
 ---
 We already covered techniques on [how to integrate HubSpot with the 3rd party CMSs][1]. But let&#8217;s discuss why it might be not a good idea to host your content outside of HubSpot.

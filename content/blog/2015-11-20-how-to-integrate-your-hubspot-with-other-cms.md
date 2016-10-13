@@ -1,6 +1,6 @@
 ---
 title: How to Integrate Your HubSpot with other CMSs
-author: intagent
+author: Denis Lunev
 date: 2015-11-20
 aliases: ["/how-to-integrate-your-hubspot-with-other-cms/"]
 image: "/img/integrate-cms/cover.png"
@@ -8,7 +8,7 @@ url:
 dsq_thread_id:
   - 4336172287
 categories:
-  - Uncategorized
+  - HubSpot, Integrations
 
 ---
 Are you finding it difficult to integrate your blog or website with HubSpot marketing software? Are you worried that you’ll lose on HubSpot’s inbound marketing capabilities because your website is using Joomla, Drupal or WordPress CMS? Well, if you’ve been asking yourself these questions, then you’ve just landed on the right page.

@@ -1,13 +1,13 @@
 ---
 title: How to display custom error message in HubSpot form
-author: Denis
+author: Denis Lunev
 date: 2015-12-16
 aliases: ["/custom-form-message/"]
 image: "/img/custom-error/cover.png"
 dsq_thread_id:
   - 4409768319
 categories:
-  - Uncategorized
+  - HubSpot, Smart Form
 
 ---
 HubSpot form has native validation and error message display, but sometimes you need to display a validation message not just for each field, but for entire form.

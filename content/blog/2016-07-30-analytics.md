@@ -1,8 +1,9 @@
 +++
 date = "2016-07-30T06:23:26-05:00"
+author = Denis Lunev
 draft = true
 title = "HubSpot’s Analytic Tools That You Should Be Using besides the Google Analytics"
-
+categories = ["HubSpot"]
 +++
 
 It’s no secret that the biggest challenge facing digital marketers today

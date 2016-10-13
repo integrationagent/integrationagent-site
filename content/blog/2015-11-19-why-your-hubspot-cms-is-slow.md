@@ -7,7 +7,7 @@ image: "/img/slow/cover.png"
 dsq_thread_id:
   - 4334143449
 categories:
-  - Uncategorized, Business
+  - HubSpot
 
 ---
 Do you know why your HubSpot marketing website has suddenly slowed down?
