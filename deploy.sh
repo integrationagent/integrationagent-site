@@ -5,7 +5,7 @@ export TZ=":America/New_York"
 now=$(date +"%Y-%m-%d %H:%M:%S")
 
 # Build the site
-cd /Users/dlunev/projects/integrationagent-site
+cd /Users/dlunev/projects/integrationagent/integrationagent-site
 hugo
 
 # Push the source to Github (source branch)
