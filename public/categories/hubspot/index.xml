@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hubspot on Integration Agent - Get the most out of your marketing automation</title>
-    <link>https://integrationagent.com/categories/hubspot/</link>
-    <description>Recent content in Hubspot on Integration Agent - Get the most out of your marketing automation</description>
+    <title>Integration Agent - Get the most out of your marketing automation</title>
+    <link>https://integrationagent.com/categories/hubspot/index.xml</link>
+    <description>Recent content on Integration Agent - Get the most out of your marketing automation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Integration Agent 2016</copyright>
-    <lastBuildDate>Fri, 05 Aug 2016 06:24:47 -0500</lastBuildDate>
     <atom:link href="https://integrationagent.com/categories/hubspot/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -418,15 +417,15 @@ attain your bottom line.&lt;/p&gt;
       <pubDate>Thu, 19 Nov 2015 00:00:00 +0000</pubDate>
       
       <guid>https://integrationagent.com/blog/2015-11-19-why-your-hubspot-cms-is-slow/</guid>
-      <description>
-
-&lt;p&gt;Do you know why your HubSpot marketing website has suddenly slowed down?&lt;/p&gt;
+      <description>&lt;p&gt;Do you know why your HubSpot marketing website has suddenly slowed down?&lt;/p&gt;
 
 &lt;p&gt;Consider this—a visitor who’s interested in your product enters your URL in her browser so that she can access more information about your products after finding your site on a search engine. But instead of your home page loading faster, your visitor has to keep waiting for your website pages to load slowly, one at a time.&lt;/p&gt;
 
 &lt;p&gt;What’s the implication of slow websites for your business?  Your client will simply lose the attention with your website. Regarding business, you’ll have lost a potential customer who’ll have brought in more loyal customers to your business. In a nutshell, the impact of conservative websites is huge when looked at from a business angle.&lt;/p&gt;
 
 &lt;p&gt;So, let’s dive in and find out why all of a sudden, your HubSpot marketing website is slow.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;why-your-hubspot-marketing-website-is-slow&#34;&gt;Why your HubSpot marketing website is slow&lt;/h2&gt;
 
@@ -472,8 +471,7 @@ attain your bottom line.&lt;/p&gt;
 
 &lt;p&gt;A slow website leads to losses of potential customers who’ll have brought in more loyal customers to your business. Therefore, you should always strive to improve the load times and performance of your website. To improve the load times and performance of your website—so that it’s not slow—you have to optimize the images, optimize the codes, optimize browser catching and finally use the plugins sparingly.&lt;/p&gt;
 
-&lt;p&gt;That’s the only way that you’ll make your slow HubSpot website or blog to have a more conversion process from prospects into loyal customers. What’s your take? Keep us posted.&lt;/p&gt;
-</description>
+&lt;p&gt;That’s the only way that you’ll make your slow HubSpot website or blog to have a more conversion process from prospects into loyal customers. What’s your take? Keep us posted.&lt;/p&gt;</description>
     </item>
     
   </channel>

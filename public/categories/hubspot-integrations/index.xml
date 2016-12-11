@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hubspot Integrations on Integration Agent - Get the most out of your marketing automation</title>
-    <link>https://integrationagent.com/categories/hubspot-integrations/</link>
-    <description>Recent content in Hubspot Integrations on Integration Agent - Get the most out of your marketing automation</description>
+    <title>Integration Agent - Get the most out of your marketing automation</title>
+    <link>https://integrationagent.com/categories/hubspot-integrations/index.xml</link>
+    <description>Recent content on Integration Agent - Get the most out of your marketing automation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Integration Agent 2016</copyright>
-    <lastBuildDate>Thu, 03 Dec 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://integrationagent.com/categories/hubspot-integrations/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -16,9 +15,7 @@
       <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
       
       <guid>https://integrationagent.com/blog/2015-12-03-why-integrating-your-hubspot-with-other-cmss-is-your-major-undoing/</guid>
-      <description>
-
-&lt;p&gt;We already covered techniques on &lt;a href=&#34;http://integrationagent.com/how-to-integrate-your-hubspot-with-other-cms/&#34;&gt;how to integrate HubSpot with the 3rd party CMSs&lt;/a&gt;. But let&amp;#8217;s discuss why it might be not a good idea to host your content outside of HubSpot.&lt;/p&gt;
+      <description>&lt;p&gt;We already covered techniques on &lt;a href=&#34;http://integrationagent.com/how-to-integrate-your-hubspot-with-other-cms/&#34;&gt;how to integrate HubSpot with the 3rd party CMSs&lt;/a&gt;. But let&amp;#8217;s discuss why it might be not a good idea to host your content outside of HubSpot.&lt;/p&gt;
 
 &lt;p&gt;If you craft a good content in the right context, you’ll attract the right visitors to your website, convert them into leads and close them into your loyal customers. In other words, content is like fuel that that powers any successful marketing strategy. Fortunately, this is what the HubSpot CMS is all about.&lt;/p&gt;
 
@@ -29,6 +26,8 @@
 &lt;p&gt;In this blog article, we highlight some of the demerits that the CMS’s that have been integrated with HubSpot’s tracking code over the HubSpot’s COS. This will help you make a decision as to whether you should remain with your traditional CMS that has been integrated with HubSpot’s tracking code or migrate to HubSpot COS.&lt;/p&gt;
 
 &lt;p&gt;So, let’s dive in and find out why the traditional CMS that has been integrated with HubSpot’s tracking code has been your major undoing.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;demerits-of-traditional-cms-s-that-have-been-integrated-with-hubspot-s-tracking-codes&#34;&gt;Demerits of traditional CMS’s that have been integrated with HubSpot’s tracking codes&lt;/h2&gt;
 
@@ -54,8 +53,7 @@
 
 &lt;p&gt;Integrating HubSpot’s tracking code and traditional CMS’s may create a website or blog that’s tough to update and edit. This is because blog posts, website, and social media may be in different panels. When you use the HubSpot COS, you’ll have an amazing control panel that lets you add new blog posts, edit your posts and publish them on social media platform.&lt;/p&gt;
 
-&lt;p&gt;You’ll be doing all these from one central control panel as opposed to traditional CMS’s that have been integrated into HubSpot’s tracking codes. So, there you have it. Keep us posted in case you have any queries.&lt;/p&gt;
-</description>
+&lt;p&gt;You’ll be doing all these from one central control panel as opposed to traditional CMS’s that have been integrated into HubSpot’s tracking codes. So, there you have it. Keep us posted in case you have any queries.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -64,9 +62,7 @@
       <pubDate>Fri, 20 Nov 2015 00:00:00 +0000</pubDate>
       
       <guid>https://integrationagent.com/blog/2015-11-20-how-to-integrate-your-hubspot-with-other-cms/</guid>
-      <description>
-
-&lt;p&gt;Are you finding it difficult to integrate your blog or website with HubSpot marketing software? Are you worried that you’ll lose on HubSpot’s inbound marketing capabilities because your website is using Joomla, Drupal or WordPress CMS? Well, if you’ve been asking yourself these questions, then you’ve just landed on the right page.&lt;/p&gt;
+      <description>&lt;p&gt;Are you finding it difficult to integrate your blog or website with HubSpot marketing software? Are you worried that you’ll lose on HubSpot’s inbound marketing capabilities because your website is using Joomla, Drupal or WordPress CMS? Well, if you’ve been asking yourself these questions, then you’ve just landed on the right page.&lt;/p&gt;
 
 &lt;p&gt;It’s no secret that the HubSpot’s inbound marketing strategy—which is provided in a marketing software—can help you attract visitors to your website, convert them into leads and eventually persuade them to be your loyal customers. If you have a HubSpot marketing software, then you are assured that you’ll not only have increased online presence but also increased conversion rates from visitors to leads who’ll eventually turn into customers.&lt;/p&gt;
 
@@ -75,6 +71,8 @@
 &lt;p&gt;So, how do you integrate your HubSpot’s marketing software with Joomla, Drupal, Magento or WordPress blog or website? Good question. In this article, we walk you through the process of linking your blog or website that’s been developed using either with Joomla, Drupal, Magento or WordPress with HubSpot’s marketing software.&lt;/p&gt;
 
 &lt;p&gt;But first, let’s understand the basics.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;the-basics-of-linking-hubspot-with-cms-s&#34;&gt;The Basics of Linking HubSpot with CMS’s&lt;/h2&gt;
 
@@ -172,8 +170,7 @@
 &lt;li&gt;Visibility settings. You can skip this setting.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Well, there you have it. You should be in a position to integrate your HubSpot with any CMS now. Keep us posted. We’ll be happy to respond to your queries.&lt;/p&gt;
-</description>
+&lt;p&gt;Well, there you have it. You should be in a position to integrate your HubSpot with any CMS now. Keep us posted. We’ll be happy to respond to your queries.&lt;/p&gt;</description>
     </item>
     
   </channel>
