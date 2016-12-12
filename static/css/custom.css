@@ -1,0 +1,15 @@
+.product{
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 3px;
+    background-color: #efefef;
+    margin-bottom: 30px;
+}
+
+.product h2{
+    text-align: center;
+}
+
+.product .btn-area{
+    text-align: center;
+}

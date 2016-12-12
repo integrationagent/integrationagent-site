@@ -6,18 +6,19 @@ date: 2015-12-15
 url: /products
 
 ---
-* * *
 
-### DepositFix – Payment Solution for HubSpot
-
+{{% product title="DepositFix – Payment Solution for HubSpot" link="http://www.depositfix.com" button="Learn More" %}}
 Accept payments using your HubSpot forms and run marketing campaigns based on purchases.
 
-<http://www.depositfix.com/>
+* Accept payments directly from your website (PayPal or Credit Cards via Stripe)
+* Manage discounts
+* Run HubSpot workflows and campaigns based on payment events
+* Automate Upsells, Payment notifications, abandoned cart alerts
+
+{{% /product %}}
 
 
-* * *
-
-### Smart Forms for HubSpot
+{{% product title="Smart Forms for HubSpot" link="https://integrationagent.com/smartforms" button="Get SmartForms" %}}
 
 Smart Forms for HubSpot can help you increase signup conversion by 17%.
 
@@ -26,24 +27,27 @@ You probably know, that popup forms are very effective in terms of converting yo
 Smart Forms provides a compromise of effective and user friendly way to increase forms conversion rate.
 
 #### Features
+* HubSpot native.
+* Built specifically for HubSpot, you can use like any other module.
+* Mobile ready
+* Slide in form, doesn’t block content
+* Timed based appearance
+* If a user closes the form – it wouldn’t show up for the next 24 hours.
+* If a user submitted the form, the popup for this specific form will never be shown again.
+* Scroll-Based (in development)
+* Exit-Intent (in development)
 
-* sdfd
-* sdfsd
-* fllll
+{{% /product %}}
 
-  * HubSpot native.
-  * Built specifically for HubSpot, you can use like any other module.
-  * Mobile ready
-  * Slide in form, doesn’t block content
-  * Timed based appearance
-  * If a user closes the form – it wouldn’t show up for the next 24 hours.
-  * If a user submitted the form, the popup for this specific form will never be shown again.
-  * Scroll-Based (in development)
-  * Exit-Intent (in development)
+{{% product title="Email Checker" link="/emailchecker/" button="Verify Emails" %}}
 
-[Get SmartForms][1]
+Sending emails to non-existent addresses causes big bounce rate, as a result your emails will go to spam more often.
 
-* * *
+Upload a contact list in csv with a column email, the email checker will verify all emails that exist and send you back a file with only valid records.
+{{% /product %}}
+
+
+{{% product title="HubSpot API Java Client" link="https://github.com/integrationagent/hubspot-java" button="Fork on GitHub" %}}
 
 ### HubSpot API Java Client
 
@@ -83,7 +87,4 @@ Open Source library to work with HubSpot API written in Java.
 &lt;/dependencies&gt;</pre>
 </div>
 
-[Fork on GitHub][2]
-
- [1]: http://integrationagent.com/smartforms
- [2]: https://github.com/integrationagent/hubspot-java
+{{% /product %}}

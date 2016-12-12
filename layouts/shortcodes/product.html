@@ -1,0 +1,12 @@
+<div class="product">
+    <h2>{{ .Get "title" }}</h2>
+     {{ .Inner }}
+
+    <div class="btn-area">
+        <a href='{{ .Get "link" }}'>
+            <button class="button -primary -large" type="button">
+                {{ .Get "button" }}
+            </button>
+        </a>
+    </div>
+</div>
