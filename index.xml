@@ -1477,33 +1477,36 @@ attain your bottom line.&lt;/p&gt;
       <pubDate>Tue, 15 Dec 2015 00:00:00 +0000</pubDate>
       
       <guid>https://integrationagent.com/products</guid>
-      <description>
+      <description>&lt;div class=&#34;product&#34;&gt;
+    &lt;h2&gt;DepositFix – Payment Solution for HubSpot&lt;/h2&gt;
+     &lt;p&gt;Accept payments using your HubSpot forms and run marketing campaigns based on purchases.&lt;/p&gt;
 
-&lt;hr /&gt;
+&lt;ul&gt;
+&lt;li&gt;Accept payments directly from your website (PayPal or Credit Cards via Stripe)&lt;/li&gt;
+&lt;li&gt;Manage discounts&lt;/li&gt;
+&lt;li&gt;Run HubSpot workflows and campaigns based on payment events&lt;/li&gt;
+&lt;li&gt;Automate Upsells, Payment notifications, abandoned cart alerts&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h3 id=&#34;depositfix-payment-solution-for-hubspot&#34;&gt;DepositFix – Payment Solution for HubSpot&lt;/h3&gt;
 
-&lt;p&gt;Accept payments using your HubSpot forms and run marketing campaigns based on purchases.&lt;/p&gt;
+    &lt;div class=&#34;btn-area&#34;&gt;
+        &lt;a href=&#39;http://www.depositfix.com&#39;&gt;
+            &lt;button class=&#34;button -primary -large&#34; type=&#34;button&#34;&gt;
+                Learn More
+            &lt;/button&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://www.depositfix.com/&#34;&gt;http://www.depositfix.com/&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h3 id=&#34;smart-forms-for-hubspot&#34;&gt;Smart Forms for HubSpot&lt;/h3&gt;
-
-&lt;p&gt;Smart Forms for HubSpot can help you increase signup conversion by 17%.&lt;/p&gt;
+&lt;p&gt;&lt;div class=&#34;product&#34;&gt;
+    &lt;h2&gt;Smart Forms for HubSpot&lt;/h2&gt;
+     &lt;p&gt;Smart Forms for HubSpot can help you increase signup conversion by 17%.&lt;/p&gt;
 
 &lt;p&gt;You probably know, that popup forms are very effective in terms of converting your visitors to subscribers, but at the same time they can be very annoying to users that can lead to a high bounce rate.&lt;/p&gt;
 
 &lt;p&gt;Smart Forms provides a compromise of effective and user friendly way to increase forms conversion rate.&lt;/p&gt;
 
 &lt;h4 id=&#34;features&#34;&gt;Features&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;sdfd&lt;/li&gt;
-&lt;li&gt;sdfsd&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;fllll&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;HubSpot native.&lt;/li&gt;
@@ -1515,14 +1518,37 @@ attain your bottom line.&lt;/p&gt;
 &lt;li&gt;If a user submitted the form, the popup for this specific form will never be shown again.&lt;/li&gt;
 &lt;li&gt;Scroll-Based (in development)&lt;/li&gt;
 &lt;li&gt;Exit-Intent (in development)&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;a href=&#34;http://integrationagent.com/smartforms&#34;&gt;Get SmartForms&lt;/a&gt;&lt;/p&gt;
 
-&lt;hr /&gt;
+    &lt;div class=&#34;btn-area&#34;&gt;
+        &lt;a href=&#39;https://integrationagent.com/smartforms&#39;&gt;
+            &lt;button class=&#34;button -primary -large&#34; type=&#34;button&#34;&gt;
+                Get SmartForms
+            &lt;/button&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;hubspot-api-java-client&#34;&gt;HubSpot API Java Client&lt;/h3&gt;
+&lt;p&gt;&lt;div class=&#34;product&#34;&gt;
+    &lt;h2&gt;Email Checker&lt;/h2&gt;
+     &lt;p&gt;Sending emails to non-existent addresses causes big bounce rate, as a result your emails will go to spam more often.&lt;/p&gt;
+
+&lt;p&gt;Upload a contact list in csv with a column email, the email checker will verify all emails that exist and send you back a file with only valid records.&lt;/p&gt;
+
+
+    &lt;div class=&#34;btn-area&#34;&gt;
+        &lt;a href=&#39;https://integrationagent.com/emailchecker/&#39;&gt;
+            &lt;button class=&#34;button -primary -large&#34; type=&#34;button&#34;&gt;
+                Verify Emails
+            &lt;/button&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;product&#34;&gt;
+    &lt;h2&gt;HubSpot API Java Client&lt;/h2&gt;
+     &lt;h3 id=&#34;hubspot-api-java-client&#34;&gt;HubSpot API Java Client&lt;/h3&gt;
 
 &lt;p&gt;Open Source library to work with HubSpot API written in Java.&lt;/p&gt;
 
@@ -1562,7 +1588,15 @@ attain your bottom line.&lt;/p&gt;
 &amp;lt;/dependencies&amp;gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/integrationagent/hubspot-java&#34;&gt;Fork on GitHub&lt;/a&gt;&lt;/p&gt;
+
+    &lt;div class=&#34;btn-area&#34;&gt;
+        &lt;a href=&#39;https://github.com/integrationagent/hubspot-java&#39;&gt;
+            &lt;button class=&#34;button -primary -large&#34; type=&#34;button&#34;&gt;
+                Fork on GitHub
+            &lt;/button&gt;
+        &lt;/a&gt;
+    &lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     
