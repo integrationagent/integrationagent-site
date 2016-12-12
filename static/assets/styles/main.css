@@ -10615,33 +10615,3 @@ li[aria-disabled="true"] {
   font-size: 19px;
 }
 
-.cta{
-    background-color: #336699;
-    padding: 7px 15px;
-    color: #f5f5f5;
-    border-radius: 5px;
-    text-align: center;
-}
-
-.cta .button{
-  background-color: #ddd;
-  border: 0px;
-  color: #333;
-  margin-left: 15px;
-}
-
-.product{
-  border: 1px solid #ccc;
-  padding: 20px;
-  border-radius: 3px;
-  background-color: #efefef;
-  margin-bottom: 30px;
-}
-
-.product h2{
-  text-align: center;
-}
-
-.product .btn-area{
-  text-align: center;
-}

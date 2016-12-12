@@ -13,3 +13,18 @@
 .product .btn-area{
     text-align: center;
 }
+
+.cta{
+    background-color: #336699;
+    padding: 7px 15px;
+    color: #f5f5f5;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.cta .button{
+    background-color: #ddd;
+    border: 0px;
+    color: #333;
+    margin-left: 15px;
+}
