@@ -4,8 +4,6 @@
     <list default="true" id="3f5b0ce1-8b4d-4ed7-9c6c-11fa60901302" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/deploy" afterPath="$PROJECT_DIR$/deploy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/generator.css" afterPath="$PROJECT_DIR$/static/css/generator.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/generator.js" afterPath="$PROJECT_DIR$/static/js/generator.js" />
     </list>
     <ignored path="integrationagent-site.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,8 +77,8 @@
       <file leaf-file-name="generator.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/css/generator.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="62">
-              <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+            <state relative-caret-position="155">
+              <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -1186,12 +1184,12 @@
       <workItem from="1476361041331" duration="9298000" />
       <workItem from="1476884500907" duration="634000" />
       <workItem from="1476885328980" duration="392000" />
-      <workItem from="1481490495320" duration="6581000" />
+      <workItem from="1481490495320" duration="6683000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17934000" />
+    <option name="totallyTimeSpent" value="18036000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="825" extended-state="6" />
@@ -1713,8 +1711,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/static/css/generator.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+        <state relative-caret-position="155">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
           <folding />
         </state>
       </provider>
