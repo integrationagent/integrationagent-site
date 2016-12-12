@@ -23,11 +23,6 @@ app.controller("formGeneratorCtrl", function($scope) {
 			"        });\n" +
 			"\n" +
 			"        HSPopup.showPopup();\n" +
-			'\n' +
-		"        $('#button').on('click', function () {\n" +
-		'                HSPopup.showPopup();\n' +
-		'            });\n' +
-	'        });\n' +
 	'</script>';
 	};
 });
