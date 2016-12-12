@@ -158,6 +158,62 @@
 
 
 &lt;/script&gt;
+
+&lt;script&gt;
+    $(document).ready(function() {
+        DepositFixForm.init({
+            hubSpotFormId: &#39;49bfce9c-1370-4a9c-b723-db237f44de8b&#39;,
+            userId: &#34;173&#34;,
+            amount: &#34;50&#34;,
+            productName: &#34;DepositFix Subscription ($50/m)&#34;,
+            discount: false
+        });
+    });
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Payment</title>
+      <link>https://integrationagent.com/depositfix</link>
+      <pubDate>Mon, 12 Dec 2016 15:35:36 -0500</pubDate>
+      
+      <guid>https://integrationagent.com/depositfix</guid>
+      <description>&lt;style&gt;
+    .post-heading{
+        text-align: center;
+    }
+
+    .field{
+        width: 100%;
+    }
+
+    .df-title{
+        padding-bottom: 15px;
+    }
+&lt;/style&gt;
+
+&lt;p&gt;&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;https://depositfix.s3.amazonaws.com/style.css&#34;/&gt;
+&lt;div id=&#34;df-card-container&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;!--[if lte IE 8]&gt;
+&lt;script charset=&#34;utf-8&#34; type=&#34;text/javascript&#34; src=&#34;//js.hsforms.net/forms/v2-legacy.js&#34;&gt;&lt;/script&gt;
+&lt;![endif]--&gt;
+&lt;script charset=&#34;utf-8&#34; type=&#34;text/javascript&#34; src=&#34;//js.hsforms.net/forms/v2.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://depositfix.s3.amazonaws.com/deposifixform.js&#34;&gt;&lt;/script&gt;
+
+&lt;script&gt;
+    $(document).ready(function() {
+        DepositFixForm.init({
+            hubSpotFormId: &#39;49bfce9c-1370-4a9c-b723-db237f44de8b&#39;,
+            userId: &#34;173&#34;,
+            amount: &#34;50&#34;,
+            productName: &#34;Monthly DepositFix Subscription&#34;,
+            discount: false
+        });
+    });
+&lt;/script&gt;
 </description>
     </item>
     

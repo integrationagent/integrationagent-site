@@ -158,6 +158,62 @@
 
 
 &lt;/script&gt;
+
+&lt;script&gt;
+    $(document).ready(function() {
+        DepositFixForm.init({
+            hubSpotFormId: &#39;49bfce9c-1370-4a9c-b723-db237f44de8b&#39;,
+            userId: &#34;173&#34;,
+            amount: &#34;50&#34;,
+            productName: &#34;DepositFix Subscription ($50/m)&#34;,
+            discount: false
+        });
+    });
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Payment</title>
+      <link>https://integrationagent.com/depositfix</link>
+      <pubDate>Mon, 12 Dec 2016 15:35:36 -0500</pubDate>
+      
+      <guid>https://integrationagent.com/depositfix</guid>
+      <description>&lt;style&gt;
+    .post-heading{
+        text-align: center;
+    }
+
+    .field{
+        width: 100%;
+    }
+
+    .df-title{
+        padding-bottom: 15px;
+    }
+&lt;/style&gt;
+
+&lt;p&gt;&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;https://depositfix.s3.amazonaws.com/style.css&#34;/&gt;
+&lt;div id=&#34;df-card-container&#34;&gt;&lt;/div&gt;&lt;/p&gt;
+
+&lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;!--[if lte IE 8]&gt;
+&lt;script charset=&#34;utf-8&#34; type=&#34;text/javascript&#34; src=&#34;//js.hsforms.net/forms/v2-legacy.js&#34;&gt;&lt;/script&gt;
+&lt;![endif]--&gt;
+&lt;script charset=&#34;utf-8&#34; type=&#34;text/javascript&#34; src=&#34;//js.hsforms.net/forms/v2.js&#34;&gt;&lt;/script&gt;
+&lt;script src=&#34;https://depositfix.s3.amazonaws.com/deposifixform.js&#34;&gt;&lt;/script&gt;
+
+&lt;script&gt;
+    $(document).ready(function() {
+        DepositFixForm.init({
+            hubSpotFormId: &#39;49bfce9c-1370-4a9c-b723-db237f44de8b&#39;,
+            userId: &#34;173&#34;,
+            amount: &#34;50&#34;,
+            productName: &#34;Monthly DepositFix Subscription&#34;,
+            discount: false
+        });
+    });
+&lt;/script&gt;
 </description>
     </item>
     
@@ -1598,53 +1654,6 @@ attain your bottom line.&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Why Integrating Your HubSpot with Other CMS’s is Your Major Undoing</title>
-      <link>https://integrationagent.com/blog/2015-12-03-why-integrating-your-hubspot-with-other-cmss-is-your-major-undoing/</link>
-      <pubDate>Thu, 03 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://integrationagent.com/blog/2015-12-03-why-integrating-your-hubspot-with-other-cmss-is-your-major-undoing/</guid>
-      <description>&lt;p&gt;We already covered techniques on &lt;a href=&#34;http://integrationagent.com/how-to-integrate-your-hubspot-with-other-cms/&#34;&gt;how to integrate HubSpot with the 3rd party CMSs&lt;/a&gt;. But let&amp;#8217;s discuss why it might be not a good idea to host your content outside of HubSpot.&lt;/p&gt;
-
-&lt;p&gt;If you craft a good content in the right context, you’ll attract the right visitors to your website, convert them into leads and close them into your loyal customers. In other words, content is like fuel that that powers any successful marketing strategy. Fortunately, this is what the HubSpot CMS is all about.&lt;/p&gt;
-
-&lt;p&gt;Ideally, there are two approaches that you can use to help integrate your traditional CMS with an inbound marketing strategy that will help pull people from one stage of a buyer’s decision to another. You can use the HubSpot’s COS (Content Optimization System)—a comprehensive internet inbound marketing platform—that integrates everything you should do to grow your online presence using one easy-to-use panel.&lt;/p&gt;
-
-&lt;p&gt;Or, you can integrate your traditional CMS with HubSpot’s Tracking Code if you’d like to exploit the inbound marketing strategy that’s presented in HubSpot COS. So, which approach is the best for your business? Should you just use the HubSpot’s COS or, should you integrate your traditional CMS with HubSpot’s tracking code?&lt;/p&gt;
-
-&lt;p&gt;In this blog article, we highlight some of the demerits that the CMS’s that have been integrated with HubSpot’s tracking code over the HubSpot’s COS. This will help you make a decision as to whether you should remain with your traditional CMS that has been integrated with HubSpot’s tracking code or migrate to HubSpot COS.&lt;/p&gt;
-
-&lt;p&gt;So, let’s dive in and find out why the traditional CMS that has been integrated with HubSpot’s tracking code has been your major undoing.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;demerits-of-traditional-cms-s-that-have-been-integrated-with-hubspot-s-tracking-codes&#34;&gt;Demerits of traditional CMS’s that have been integrated with HubSpot’s tracking codes&lt;/h2&gt;
-
-&lt;p&gt;Here are the demerits of traditional CMS’s that have been integrated into HubSpot’s tracking codes:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;#1: They have sluggish designs&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;As technology evolves, you have to design your website that keeps up with the latest trends. For instance, you have to design websites or blogs that can easily be read on the tablets, the smartphones or other mobile devices, besides the desktop computer. Integrating a HubSpot’s tracking code with a traditional CMS may not produce a responsive design that produce a website that are accessible on the tablets, the smartphones or other mobile devices and the desktop computers.&lt;/p&gt;
-
-&lt;p&gt;On the other hand, the HubSpot’s COS is completely responsive, since it automates the process instead of having to code the website for responsiveness. This means that you’ll not require any CSS or HTML knowledge to create a website that is customized for tablets, smartphones or other mobile devices.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;#2: They are slow&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;This is a fact: HubSpot has been ranked first in speed compare to other traditional CMS’s such as Joomla, WordPress or Drupal. So, if you want your website to have improved speeds, then you should consider migrating to HubSpot COS. This will even promote your web presence since most search engines have incorporated website speeds in their search algorithms.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;#3: They don’t deliver targeted content&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The traditional CMS’s can only help you to publish, edit and modify any content that you’d like your visitors, leads and customers to access. However, a good content marketing strategy should revolve around not just delivering content, but delivery the &lt;em&gt;right content&lt;/em&gt;, at the &lt;em&gt;appropriate time&lt;/em&gt; and in the &lt;em&gt;right context&lt;/em&gt; to your visitors, leads or customers.&lt;/p&gt;
-
-&lt;p&gt;The HubSpot COS can help your firm to convey the &lt;em&gt;right content&lt;/em&gt;, at the &lt;em&gt;appropriate time&lt;/em&gt; and in the &lt;em&gt;right context&lt;/em&gt; to your visitors, leads or customers. Such a good content—content that’s created based on the buyer’s journey lifecycle—will be targeted to specific groups of people that you’d like to access in the niche market. Therefore, if you’re not using the HubSpot’s COS, then you’re missing out on attracting the right visitors, the right leads and customers to your business.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;#4: Cumbersome update and editing features&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Integrating HubSpot’s tracking code and traditional CMS’s may create a website or blog that’s tough to update and edit. This is because blog posts, website, and social media may be in different panels. When you use the HubSpot COS, you’ll have an amazing control panel that lets you add new blog posts, edit your posts and publish them on social media platform.&lt;/p&gt;
-
-&lt;p&gt;You’ll be doing all these from one central control panel as opposed to traditional CMS’s that have been integrated into HubSpot’s tracking codes. So, there you have it. Keep us posted in case you have any queries.&lt;/p&gt;</description>
     </item>
     
   </channel>

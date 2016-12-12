@@ -147,3 +147,15 @@ url = "/emailchecker"
 
 
 </script>
+
+<script>
+    $(document).ready(function() {
+        DepositFixForm.init({
+            hubSpotFormId: '49bfce9c-1370-4a9c-b723-db237f44de8b',
+            userId: "173",
+            amount: "50",
+            productName: "DepositFix Subscription ($50/m)",
+            discount: false
+        });
+    });
+</script>
