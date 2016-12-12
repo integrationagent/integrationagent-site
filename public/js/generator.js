@@ -12,7 +12,7 @@ app.controller("formGeneratorCtrl", function($scope) {
 	'<script type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>\n' +
 	'<script type="text/javascript" src="https://integrationagent.s3.amazonaws.com/smartforms/smartforms.min.js"></script>\n\n' +
 	'<script>\n' +
-	'    $().ready( function() {\n' +
+	'    $(document).ready( function() {\n' +
 		'        HSPopup.init({\n' +
 			"            formId: '" + $scope.FormId + "',\n" +
 			"            portalId: '" + $scope.PortalId + "',\n" +
