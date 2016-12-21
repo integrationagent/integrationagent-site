@@ -195,7 +195,26 @@
                 &amp;lt;div class=&amp;quot;section--container&amp;quot;&amp;gt;
                     &amp;lt;div class=&amp;quot;testimonials&amp;quot;&amp;gt;
                         &amp;lt;div class=&amp;quot;testimonials--list&amp;quot;&amp;gt;
-
+                            &amp;lt;div class=&amp;quot;testimonials--item&amp;quot;&amp;gt;
+                                &amp;lt;figure class=&amp;quot;testimonials--item_image&amp;quot;&amp;gt;
+                                    &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/img/testimonials/aitac.png&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt;
+                                &amp;lt;/figure&amp;gt;
+                                &amp;lt;div class=&amp;quot;testimonials--item_content&amp;quot;&amp;gt;
+                                    &amp;lt;p class=&amp;quot;testimonials--item_text&amp;quot;&amp;gt;
+                                        We worked with Denis from Integration Agent in order to improve our customer support portal hosted on Freshdesk.
+                                        Denis was quick to understand what we wanted to do and executed it in a timely manner.
+                                        &amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+                                        Denis reacted quickly and efficiently when we requested changes.
+                                        The communication with Denis was very easy, no need for pages long specification.
+                                        &amp;lt;br/&amp;gt;&amp;lt;br/&amp;gt;
+                                        Highly recommended!
+                                    &amp;lt;/p&amp;gt;
+                                    &amp;lt;dl class=&amp;quot;testimonials--item_author&amp;quot;&amp;gt;
+                                        &amp;lt;dt&amp;gt;Marc Journeux&amp;lt;/dt&amp;gt;
+                                        &amp;lt;dd&amp;gt;&amp;lt;a href=&amp;quot;http://aitac.nl/&amp;quot;&amp;gt;President, Aitac&amp;lt;/a&amp;gt;&amp;lt;/dd&amp;gt;
+                                    &amp;lt;/dl&amp;gt;
+                                &amp;lt;/div&amp;gt;
+                            &amp;lt;/div&amp;gt;
                             &amp;lt;div class=&amp;quot;testimonials--item&amp;quot;&amp;gt;
                                 &amp;lt;figure class=&amp;quot;testimonials--item_image&amp;quot;&amp;gt;
                                     &amp;lt;img src=&amp;quot;{{ .Site.BaseURL }}/img/testimonials/michael.png&amp;quot; alt=&amp;quot;&amp;quot; /&amp;gt;
