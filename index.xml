@@ -7,8 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Integration Agent 2016</copyright>
-    <lastBuildDate>Mon, 12 Dec 2016 15:35:36 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 12 Jan 2017 15:35:36 -0500</lastBuildDate>
     <atom:link href="https://integrationagent.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Freshdesk</title>
+      <link>https://integrationagent.com/freshdesk</link>
+      <pubDate>Thu, 12 Jan 2017 15:35:36 -0500</pubDate>
+      
+      <guid>https://integrationagent.com/freshdesk</guid>
+      <description>&lt;script&gt;
+
+    document.location = &#34;/&#34;;
+
+&lt;/script&gt;
+</description>
+    </item>
     
     <item>
       <title>Email Checker</title>
@@ -1543,135 +1557,6 @@ attain your bottom line.&lt;/p&gt;
 &lt;p&gt;Planning to send posts—whether blog posts or social media posts—can be tedious and time-consuming. However, with a well-managed schedule, you can keep track of which type of content should be posted at what time to which groups of people.  For instance, you can use the HubSpot’s social media content calendar template to help you manage the social media posts.&lt;/p&gt;
 
 &lt;p&gt;Such a tool is important in helping you to manage your social media campaign as you scale up your social media marketing. Well, if you follow the four tips to the later, then you can maximize your HubSpot’s website for your business bottom line.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Products</title>
-      <link>https://integrationagent.com/products</link>
-      <pubDate>Tue, 15 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://integrationagent.com/products</guid>
-      <description>&lt;div class=&#34;product&#34;&gt;
-    &lt;h2&gt;DepositFix – Payment Solution for HubSpot&lt;/h2&gt;
-     &lt;p&gt;Accept payments using your HubSpot forms and run marketing campaigns based on purchases.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Accept payments directly from your website (PayPal or Credit Cards via Stripe)&lt;/li&gt;
-&lt;li&gt;Manage discounts&lt;/li&gt;
-&lt;li&gt;Run HubSpot workflows and campaigns based on payment events&lt;/li&gt;
-&lt;li&gt;Automate Upsells, Payment notifications, abandoned cart alerts&lt;/li&gt;
-&lt;/ul&gt;
-
-
-    &lt;div class=&#34;btn-area&#34;&gt;
-        &lt;a href=&#39;http://www.depositfix.com&#39;&gt;
-            &lt;button class=&#34;button -primary -large&#34; type=&#34;button&#34;&gt;
-                Learn More
-            &lt;/button&gt;
-        &lt;/a&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;div class=&#34;product&#34;&gt;
-    &lt;h2&gt;Smart Forms for HubSpot&lt;/h2&gt;
-     &lt;p&gt;Smart Forms for HubSpot can help you increase signup conversion by 17%.&lt;/p&gt;
-
-&lt;p&gt;You probably know, that popup forms are very effective in terms of converting your visitors to subscribers, but at the same time they can be very annoying to users that can lead to a high bounce rate.&lt;/p&gt;
-
-&lt;p&gt;Smart Forms provides a compromise of effective and user friendly way to increase forms conversion rate.&lt;/p&gt;
-
-&lt;h4 id=&#34;features&#34;&gt;Features&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;HubSpot native.&lt;/li&gt;
-&lt;li&gt;Built specifically for HubSpot, you can use like any other module.&lt;/li&gt;
-&lt;li&gt;Mobile ready&lt;/li&gt;
-&lt;li&gt;Slide in form, doesn’t block content&lt;/li&gt;
-&lt;li&gt;Timed based appearance&lt;/li&gt;
-&lt;li&gt;If a user closes the form – it wouldn’t show up for the next 24 hours.&lt;/li&gt;
-&lt;li&gt;If a user submitted the form, the popup for this specific form will never be shown again.&lt;/li&gt;
-&lt;li&gt;Scroll-Based (in development)&lt;/li&gt;
-&lt;li&gt;Exit-Intent (in development)&lt;/li&gt;
-&lt;/ul&gt;
-
-
-    &lt;div class=&#34;btn-area&#34;&gt;
-        &lt;a href=&#39;https://integrationagent.com/smartforms&#39;&gt;
-            &lt;button class=&#34;button -primary -large&#34; type=&#34;button&#34;&gt;
-                Get SmartForms
-            &lt;/button&gt;
-        &lt;/a&gt;
-    &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;product&#34;&gt;
-    &lt;h2&gt;Email Checker&lt;/h2&gt;
-     &lt;p&gt;Sending emails to non-existent addresses causes big bounce rate, as a result your emails will go to spam more often.&lt;/p&gt;
-
-&lt;p&gt;Upload a contact list in csv with a column email, the email checker will verify all emails that exist and send you back a file with only valid records.&lt;/p&gt;
-
-
-    &lt;div class=&#34;btn-area&#34;&gt;
-        &lt;a href=&#39;https://integrationagent.com/emailchecker/&#39;&gt;
-            &lt;button class=&#34;button -primary -large&#34; type=&#34;button&#34;&gt;
-                Verify Emails
-            &lt;/button&gt;
-        &lt;/a&gt;
-    &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;div class=&#34;product&#34;&gt;
-    &lt;h2&gt;HubSpot API Java Client&lt;/h2&gt;
-     &lt;h3 id=&#34;hubspot-api-java-client&#34;&gt;HubSpot API Java Client&lt;/h3&gt;
-
-&lt;p&gt;Open Source library to work with HubSpot API written in Java.&lt;/p&gt;
-
-&lt;h4 id=&#34;currently-implemented&#34;&gt;Currently implemented&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Contacts&lt;/li&gt;
-&lt;li&gt;Lists&lt;/li&gt;
-&lt;li&gt;Engagements&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;maven-installation&#34;&gt;Maven Installation&lt;/h4&gt;
-
-&lt;div class=&#34;highlight highlight-text-xml&#34;&gt;
-  &lt;pre class=&#34;lang:default decode:true &#34;&gt;&amp;lt;repositories&amp;gt;
-    ...
-    &amp;lt;repository&amp;gt;
-        &amp;lt;id&amp;gt;bintray&amp;lt;/id&amp;gt;
-        &amp;lt;url&amp;gt;http://dl.bintray.com/integrationagent/hubspot-java&amp;lt;/url&amp;gt;
-        &amp;lt;releases&amp;gt;
-            &amp;lt;enabled&amp;gt;true&amp;lt;/enabled&amp;gt;
-        &amp;lt;/releases&amp;gt;
-        &amp;lt;snapshots&amp;gt;
-            &amp;lt;enabled&amp;gt;false&amp;lt;/enabled&amp;gt;
-        &amp;lt;/snapshots&amp;gt;
-    &amp;lt;/repository&amp;gt;
-    ...
-&amp;lt;/repositories&amp;gt;
-&amp;lt;dependencies&amp;gt;
-    ...
-    &amp;lt;dependency&amp;gt;
-        &amp;lt;groupId&amp;gt;com.integrationagent&amp;lt;/groupId&amp;gt;
-        &amp;lt;artifactId&amp;gt;hubspot-java&amp;lt;/artifactId&amp;gt;
-        &amp;lt;version&amp;gt;0.1&amp;lt;/version&amp;gt;
-    &amp;lt;/dependency&amp;gt;
-    ...
-&amp;lt;/dependencies&amp;gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-
-    &lt;div class=&#34;btn-area&#34;&gt;
-        &lt;a href=&#39;https://github.com/integrationagent/hubspot-java&#39;&gt;
-            &lt;button class=&#34;button -primary -large&#34; type=&#34;button&#34;&gt;
-                Fork on GitHub
-            &lt;/button&gt;
-        &lt;/a&gt;
-    &lt;/div&gt;
-&lt;/div&gt;&lt;/p&gt;
 </description>
     </item>
     
