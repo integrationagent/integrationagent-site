@@ -58,6 +58,19 @@ url = "/emailchecker"
     .email{
         width: 95%;
     }
+
+    .cover-container{
+        max-width: 700px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .cover{
+        width: 300px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+    }
+
 </style>
 
 <div class="checker_container">
@@ -78,6 +91,11 @@ url = "/emailchecker"
         <button type="submit" id="upload-file-btn">Upload</button>
     </form>
     <div id="message"></div>    
+</div>
+
+<div class="cover-container">
+    <a href="https://www.youtube.com/watch?v=PO0Euev8D-0" target="_blank"><h3>Screencast Demo: How It Works</h3></a>
+    <!--<a href="https://www.youtube.com/watch?v=PO0Euev8D-0"><img class="cover" src="/img/emailchecker/email_checker_screen.png" /></a>-->
 </div>
 
 <script>
@@ -115,7 +133,7 @@ url = "/emailchecker"
         _agile.set_email($("#email").val());
         _agile.add_tag('emailchecker');
 
-        $("#upload-file-form").text("Your file is being processed, you'll be notified by email.");
+        $("#upload-file-form").html("Your file is being processed, you'll be notified by email.");
 
         return false;
 
@@ -146,16 +164,4 @@ url = "/emailchecker"
     });
 
 
-</script>
-
-<script>
-    $(document).ready(function() {
-        DepositFixForm.init({
-            hubSpotFormId: '49bfce9c-1370-4a9c-b723-db237f44de8b',
-            userId: "173",
-            amount: "50",
-            productName: "DepositFix Subscription ($50/m)",
-            discount: false
-        });
-    });
 </script>
