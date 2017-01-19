@@ -83,6 +83,19 @@
     .email{
         width: 95%;
     }
+
+    .cover-container{
+        max-width: 700px;
+        width: 80%;
+        text-align: center;
+    }
+
+    .cover{
+        width: 300px;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+    }
+
 &lt;/style&gt;
 
 &lt;div class=&#34;checker_container&#34;&gt;
@@ -103,6 +116,11 @@
         &lt;button type=&#34;submit&#34; id=&#34;upload-file-btn&#34;&gt;Upload&lt;/button&gt;
     &lt;/form&gt;
     &lt;div id=&#34;message&#34;&gt;&lt;/div&gt;    
+&lt;/div&gt;
+
+&lt;div class=&#34;cover-container&#34;&gt;
+    &lt;a href=&#34;https://www.youtube.com/watch?v=PO0Euev8D-0&#34; target=&#34;_blank&#34;&gt;&lt;h3&gt;Screencast Demo: How It Works&lt;/h3&gt;&lt;/a&gt;
+    &lt;!--&lt;a href=&#34;https://www.youtube.com/watch?v=PO0Euev8D-0&#34;&gt;&lt;img class=&#34;cover&#34; src=&#34;https://integrationagent.com/img/emailchecker/email_checker_screen.png&#34; /&gt;&lt;/a&gt;--&gt;
 &lt;/div&gt;
 
 &lt;script&gt;
@@ -140,7 +158,7 @@
         _agile.set_email($(&#34;#email&#34;).val());
         _agile.add_tag(&#39;emailchecker&#39;);
 
-        $(&#34;#upload-file-form&#34;).text(&#34;Your file is being processed, you&#39;ll be notified by email.&#34;);
+        $(&#34;#upload-file-form&#34;).html(&#34;Your file is being processed, you&#39;ll be notified by email.&#34;);
 
         return false;
 
@@ -171,18 +189,6 @@
     });
 
 
-&lt;/script&gt;
-
-&lt;script&gt;
-    $(document).ready(function() {
-        DepositFixForm.init({
-            hubSpotFormId: &#39;49bfce9c-1370-4a9c-b723-db237f44de8b&#39;,
-            userId: &#34;173&#34;,
-            amount: &#34;50&#34;,
-            productName: &#34;DepositFix Subscription ($50/m)&#34;,
-            discount: false
-        });
-    });
 &lt;/script&gt;
 </description>
     </item>
