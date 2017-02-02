@@ -9,11 +9,8 @@
 		<meta name="author" content="">
 		<meta name="google-site-verification" content="Kw_Hzk9A0TQehx9xinZ9fel00w2qZudaKlB8izb4mxA"/>
 
-		<title>Payments – Integration Agent - Get the most out of your marketing automation</title>
+		<title>How to integrate HubSpot form and PayPal – Integration Agent - Get the most out of your marketing automation</title>
 
-		
-		<link href="https://integrationagent.com/categories/payments/index.xml" rel="alternate" type="application/rss+xml" title="Integration Agent - Get the most out of your marketing automation"/>
-		<link href="https://integrationagent.com/categories/payments/index.xml" rel="feed" type="application/rss+xml" title="Integration Agent - Get the most out of your marketing automation"/>
 		
 
 		
@@ -117,149 +114,191 @@
 
 
 
-    
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-            
-                
-                    <article class="blog--post post">
-	
-	<header class="entry-header">
-		<h2 class="entry-title">
-			<a href="https://integrationagent.com/hubspot-paypal" rel="">How to integrate HubSpot form and PayPal</a>
-		</h2>
-	</header>
-	
 
-	<div class="post--info2">
-		<ul class="post--info_meta">
-			<li>
+<div class="container content">
+	<div class="row">
+		<div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+			<article class="post -page">
+
 				
-			</li>
+				<header class="entry-header">
+					<h1 class="entry-title">
+						<a href="#" rel="">How to integrate HubSpot form and PayPal</a>
+					</h1>
+				</header>
+				
 
-			
-				<li>
-					<a href="https://integrationagent.com/categories/hubspot" >HubSpot</a>
-				</li>
-			
-				<li>
-					<a href="https://integrationagent.com/categories/payments" >Payments</a>
-				</li>
-			
-		</ul>
-	</div>
-
-	
-	<div class="entry-content">
-		<figure>
-			
-				<a href="https://integrationagent.com/hubspot-paypal" rel="">
+				
+				<div class="entry-content">
+					
+					<figure>
 					<img src="https://integrationagent.com//img/hubspot-paypal/cover.png"/>
-				</a>
-	        
-		</figure>
+					    </figure>
+						
+
+					<p>When you need to collect payments from your website PayPal button might be the best solution.</p>
+
+<p>However, if you need to collect some information to send to HubSpot form first before the payment – that&rsquo;s not that easy.</p>
+
+<p>The following code allows you to redirect your customers to PayPal account after after filling out the form.</p>
+
+<p><img src="https://integrationagent.com/img/hubspotForm.png" /></p>
+
+<p>After the form being submitted, it automatically redirects to your business PayPal page with predefined amount and product name.</p>
+
+<p><img src="https://integrationagent.com/img/paypalcheckout.png" /></p>
+
+<p>Here is the complete source code:</p>
+
+<pre><code>&lt;script src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js&quot;&gt;&lt;/script&gt;
+&lt;!--[if lte IE 8]&gt;
+&lt;script charset=&quot;utf-8&quot; type=&quot;text/javascript&quot; src=&quot;//js.hsforms.net/forms/v2-legacy.js&quot;&gt;&lt;/script&gt;
+&lt;![endif]--&gt;
+&lt;script charset=&quot;utf-8&quot; type=&quot;text/javascript&quot; src=&quot;//js.hsforms.net/forms/v2.js&quot;&gt;&lt;/script&gt;
+
+&lt;form action=&quot;https://www.paypal.com/cgi-bin/webscr&quot; method=&quot;post&quot; id=&quot;paypalform&quot;&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;item_name&quot; value=&quot;&quot;/&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;amount&quot; value=&quot;&quot;/&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;quantity&quot; value=&quot;1&quot;&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;cmd&quot; value=&quot;_xclick&quot;/&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;custom&quot; value=&quot;true&quot;/&gt;
+    &lt;input type=&quot;hidden&quot; name=&quot;business&quot; value=&quot;&quot;/&gt;
+&lt;/form&gt;
+&lt;div id=&quot;hs-form-container&quot;&gt;&lt;/div&gt;
+
+
+&lt;script&gt;
+
+    var HubSpotPayPal = {
+
+        init: function (params) {
+
+            HubSpotPayPal.initPayPalForm(params.paypalEmail, params.amount, params.productName);
+
+            hbspt.forms.create({
+                portalId: params.hubSpotPortalId,
+                formId: params.hubSpotFormId,
+                target: &quot;#hs-form-container&quot;,
+                onFormSubmit: function ($form) {
+                    setTimeout(function () {
+                        $(&quot;#paypalform&quot;).submit();
+                    }, 10);
+                    return false;
+                }
+            });
+        },
+
+        initPayPalForm: function(paypalEmail, amount, productName){
+
+            $(&quot;#paypalform [name='business']&quot;).val(paypalEmail);
+            $(&quot;#paypalform [name='amount']&quot;).val(amount);
+            $(&quot;#paypalform [name='item_name']&quot;).val(productName);
+        }
+    }
+
+    HubSpotPayPal.init({
+        paypalEmail: &quot;den.lunev@gmail.com&quot;,
+        amount: &quot;170&quot;,
+        productName: &quot;My New Product&quot;,
+        hubSpotPortalId: &quot;2767376&quot;,
+        hubSpotFormId: &quot;14109ada-6a61-4d63-a1db-430b6ce0926d&quot;
+    });
+
+&lt;/script&gt;
+
+
+</code></pre>
+
+<p>You just need to update the last part:</p>
+
+<pre><code>HubSpotPayPal.init({
+    paypalEmail: &quot;[Your PayPal business account]&quot;,
+    amount: &quot;[Amount]&quot;,
+    productName: &quot;[Name of your product or service]&quot;,
+    hubSpotPortalId: &quot;[Your HubSpot portal Id]&quot;,
+    hubSpotFormId: &quot;[Your HubSpot form Id]&quot;
+});
+
+</code></pre>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<!--[if lte IE 8]>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+<![endif]-->
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" id="paypalform">
+    <input type="hidden" name="item_name" value=""/>
+    <input type="hidden" name="amount" value=""/>
+    <input type="hidden" name="quantity" value="1">
+    <input type="hidden" name="cmd" value="_xclick"/>
+    <input type="hidden" name="custom" value="true"/>
+    <input type="hidden" name="business" value=""/>
+</form>
+
+<script>
+
+    var HubSpotPayPal = {
+
+        init: function (params) {
+
+            HubSpotPayPal.initPayPalForm(params.paypalEmail, params.amount, params.productName);
+
+            hbspt.forms.create({
+                portalId: params.hubSpotPortalId,
+                formId: params.hubSpotFormId,
+                target: "#hs-form-container",
+                onFormSubmit: function ($form) {
+                    setTimeout(function () {
+                        $("#paypalform").submit();
+                    }, 10);
+                    return false;
+                }
+            });
+        },
+
+        initPayPalForm: function(paypalEmail, amount, productName){
+
+            $("#paypalform [name='business']").val(paypalEmail);
+            $("#paypalform [name='amount']").val(amount);
+            $("#paypalform [name='item_name']").val(productName);
+        }
+    }
+
+    HubSpotPayPal.init({
+        paypalEmail: "den.lunev@gmail.com",
+        amount: "170",
+        productName: "My New Product",
+        hubSpotPortalId: "2767376",
+        hubSpotFormId: "14109ada-6a61-4d63-a1db-430b6ce0926d"
+    });
+
+</script>
+
+				</div>
+				
+
+				<div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'integrationagent';
+    var disqus_identifier = 'https:\/\/integrationagent.com\/hubspot-paypal';
+    var disqus_title = 'How to integrate HubSpot form and PayPal';
+    var disqus_url = 'https:\/\/integrationagent.com\/hubspot-paypal';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+			</article>
+
+		</div>
 	</div>
-
-
-	
-</article>
-
-
-
-                
-                    <article class="blog--post post">
-	
-	<header class="entry-header">
-		<h2 class="entry-title">
-			<a href="https://integrationagent.com/setup-ssl" rel="">Why You Need SSL to Accept Payments and How to Setup SSL Certificate on HubSpot Website</a>
-		</h2>
-	</header>
-	
-
-	<div class="post--info2">
-		<ul class="post--info_meta">
-			<li>
-				Denis Lunev
-			</li>
-
-			
-				<li>
-					<a href="https://integrationagent.com/categories/hubspot" >HubSpot</a>
-				</li>
-			
-				<li>
-					<a href="https://integrationagent.com/categories/payments" >Payments</a>
-				</li>
-			
-		</ul>
-	</div>
-
-	
-	<div class="entry-content">
-		<figure>
-			
-				<a href="https://integrationagent.com/setup-ssl" rel="">
-					<img src="https://integrationagent.com//img/why-ssl/cover.png"/>
-				</a>
-	        
-		</figure>
-	</div>
-
-
-	
-</article>
-
-
-
-                
-                    <article class="blog--post post">
-	
-	<header class="entry-header">
-		<h2 class="entry-title">
-			<a href="https://integrationagent.com/payment-gateway-merchant-account" rel="">Differences between Payment Gateway and a Merchant Account</a>
-		</h2>
-	</header>
-	
-
-	<div class="post--info2">
-		<ul class="post--info_meta">
-			<li>
-				Denis Lunev
-			</li>
-
-			
-				<li>
-					<a href="https://integrationagent.com/categories/payments" >Payments</a>
-				</li>
-			
-		</ul>
-	</div>
-
-	
-	<div class="entry-content">
-		<figure>
-			
-				<a href="https://integrationagent.com/payment-gateway-merchant-account" rel="">
-					<img src="https://integrationagent.com//img/gateway/cover.png"/>
-				</a>
-	        
-		</figure>
-	</div>
-
-
-	
-</article>
-
-
-
-                
-            
-          
-    
-        </div>
-      </div>
-    </div>
+</div>
 
 
 
