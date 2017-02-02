@@ -266,6 +266,153 @@ We met and discussed deliverables and they were done a week later. When minor ch
     </item>
     
     <item>
+      <title>How to integrate HubSpot form and PayPal</title>
+      <link>https://integrationagent.com/hubspot-paypal</link>
+      <pubDate>Tue, 31 Jan 2017 10:54:05 -0600</pubDate>
+      
+      <guid>https://integrationagent.com/hubspot-paypal</guid>
+      <description>&lt;p&gt;When you need to collect payments from your website PayPal button might be the best solution.&lt;/p&gt;
+
+&lt;p&gt;However, if you need to collect some information to send to HubSpot form first before the payment – that&amp;rsquo;s not that easy.&lt;/p&gt;
+
+&lt;p&gt;The following code allows you to redirect your customers to PayPal account after after filling out the form.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://integrationagent.com/img/hubspotForm.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After the form being submitted, it automatically redirects to your business PayPal page with predefined amount and product name.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://integrationagent.com/img/paypalcheckout.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Here is the complete source code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;&amp;lt;script src=&amp;quot;https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;!--[if lte IE 8]&amp;gt;
+&amp;lt;script charset=&amp;quot;utf-8&amp;quot; type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;//js.hsforms.net/forms/v2-legacy.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;![endif]--&amp;gt;
+&amp;lt;script charset=&amp;quot;utf-8&amp;quot; type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;//js.hsforms.net/forms/v2.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+
+&amp;lt;form action=&amp;quot;https://www.paypal.com/cgi-bin/webscr&amp;quot; method=&amp;quot;post&amp;quot; id=&amp;quot;paypalform&amp;quot;&amp;gt;
+    &amp;lt;input type=&amp;quot;hidden&amp;quot; name=&amp;quot;item_name&amp;quot; value=&amp;quot;&amp;quot;/&amp;gt;
+    &amp;lt;input type=&amp;quot;hidden&amp;quot; name=&amp;quot;amount&amp;quot; value=&amp;quot;&amp;quot;/&amp;gt;
+    &amp;lt;input type=&amp;quot;hidden&amp;quot; name=&amp;quot;quantity&amp;quot; value=&amp;quot;1&amp;quot;&amp;gt;
+    &amp;lt;input type=&amp;quot;hidden&amp;quot; name=&amp;quot;cmd&amp;quot; value=&amp;quot;_xclick&amp;quot;/&amp;gt;
+    &amp;lt;input type=&amp;quot;hidden&amp;quot; name=&amp;quot;custom&amp;quot; value=&amp;quot;true&amp;quot;/&amp;gt;
+    &amp;lt;input type=&amp;quot;hidden&amp;quot; name=&amp;quot;business&amp;quot; value=&amp;quot;&amp;quot;/&amp;gt;
+&amp;lt;/form&amp;gt;
+&amp;lt;div id=&amp;quot;hs-form-container&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+
+
+&amp;lt;script&amp;gt;
+
+    var HubSpotPayPal = {
+
+        init: function (params) {
+
+            HubSpotPayPal.initPayPalForm(params.paypalEmail, params.amount, params.productName);
+
+            hbspt.forms.create({
+                portalId: params.hubSpotPortalId,
+                formId: params.hubSpotFormId,
+                target: &amp;quot;#hs-form-container&amp;quot;,
+                onFormSubmit: function ($form) {
+                    setTimeout(function () {
+                        $(&amp;quot;#paypalform&amp;quot;).submit();
+                    }, 10);
+                    return false;
+                }
+            });
+        },
+
+        initPayPalForm: function(paypalEmail, amount, productName){
+
+            $(&amp;quot;#paypalform [name=&#39;business&#39;]&amp;quot;).val(paypalEmail);
+            $(&amp;quot;#paypalform [name=&#39;amount&#39;]&amp;quot;).val(amount);
+            $(&amp;quot;#paypalform [name=&#39;item_name&#39;]&amp;quot;).val(productName);
+        }
+    }
+
+    HubSpotPayPal.init({
+        paypalEmail: &amp;quot;den.lunev@gmail.com&amp;quot;,
+        amount: &amp;quot;170&amp;quot;,
+        productName: &amp;quot;My New Product&amp;quot;,
+        hubSpotPortalId: &amp;quot;2767376&amp;quot;,
+        hubSpotFormId: &amp;quot;14109ada-6a61-4d63-a1db-430b6ce0926d&amp;quot;
+    });
+
+&amp;lt;/script&amp;gt;
+
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You just need to update the last part:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;HubSpotPayPal.init({
+    paypalEmail: &amp;quot;[Your PayPal business account]&amp;quot;,
+    amount: &amp;quot;[Amount]&amp;quot;,
+    productName: &amp;quot;[Name of your product or service]&amp;quot;,
+    hubSpotPortalId: &amp;quot;[Your HubSpot portal Id]&amp;quot;,
+    hubSpotFormId: &amp;quot;[Your HubSpot form Id]&amp;quot;
+});
+
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js&#34;&gt;&lt;/script&gt;
+&lt;!--[if lte IE 8]&gt;
+&lt;script charset=&#34;utf-8&#34; type=&#34;text/javascript&#34; src=&#34;//js.hsforms.net/forms/v2-legacy.js&#34;&gt;&lt;/script&gt;
+&lt;![endif]--&gt;
+&lt;script charset=&#34;utf-8&#34; type=&#34;text/javascript&#34; src=&#34;//js.hsforms.net/forms/v2.js&#34;&gt;&lt;/script&gt;
+
+&lt;form action=&#34;https://www.paypal.com/cgi-bin/webscr&#34; method=&#34;post&#34; id=&#34;paypalform&#34;&gt;
+    &lt;input type=&#34;hidden&#34; name=&#34;item_name&#34; value=&#34;&#34;/&gt;
+    &lt;input type=&#34;hidden&#34; name=&#34;amount&#34; value=&#34;&#34;/&gt;
+    &lt;input type=&#34;hidden&#34; name=&#34;quantity&#34; value=&#34;1&#34;&gt;
+    &lt;input type=&#34;hidden&#34; name=&#34;cmd&#34; value=&#34;_xclick&#34;/&gt;
+    &lt;input type=&#34;hidden&#34; name=&#34;custom&#34; value=&#34;true&#34;/&gt;
+    &lt;input type=&#34;hidden&#34; name=&#34;business&#34; value=&#34;&#34;/&gt;
+&lt;/form&gt;
+
+&lt;script&gt;
+
+    var HubSpotPayPal = {
+
+        init: function (params) {
+
+            HubSpotPayPal.initPayPalForm(params.paypalEmail, params.amount, params.productName);
+
+            hbspt.forms.create({
+                portalId: params.hubSpotPortalId,
+                formId: params.hubSpotFormId,
+                target: &#34;#hs-form-container&#34;,
+                onFormSubmit: function ($form) {
+                    setTimeout(function () {
+                        $(&#34;#paypalform&#34;).submit();
+                    }, 10);
+                    return false;
+                }
+            });
+        },
+
+        initPayPalForm: function(paypalEmail, amount, productName){
+
+            $(&#34;#paypalform [name=&#39;business&#39;]&#34;).val(paypalEmail);
+            $(&#34;#paypalform [name=&#39;amount&#39;]&#34;).val(amount);
+            $(&#34;#paypalform [name=&#39;item_name&#39;]&#34;).val(productName);
+        }
+    }
+
+    HubSpotPayPal.init({
+        paypalEmail: &#34;den.lunev@gmail.com&#34;,
+        amount: &#34;170&#34;,
+        productName: &#34;My New Product&#34;,
+        hubSpotPortalId: &#34;2767376&#34;,
+        hubSpotFormId: &#34;14109ada-6a61-4d63-a1db-430b6ce0926d&#34;
+    });
+
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Freshdesk</title>
       <link>https://integrationagent.com/freshdesk</link>
       <pubDate>Thu, 12 Jan 2017 15:35:36 -0500</pubDate>
@@ -1709,65 +1856,6 @@ attain your bottom line.&lt;/p&gt;
 &lt;p&gt;On that you can view existing key or create a new one.&lt;/p&gt;
 
 &lt;p&gt;&amp;nbsp;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>How to display custom error message in HubSpot form</title>
-      <link>https://integrationagent.com/blog/custom-form-message/</link>
-      <pubDate>Wed, 16 Dec 2015 00:00:00 +0000</pubDate>
-      
-      <guid>https://integrationagent.com/blog/custom-form-message/</guid>
-      <description>&lt;p&gt;HubSpot form has native validation and error message display, but sometimes you need to display a validation message not just for each field, but for entire form.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, HubSpot form API doesn&amp;#8217;t provide a callback for failed validation.&lt;/p&gt;
-
-&lt;p&gt;But here is the workaround: we know that HS form inserts an element with an error message, so we can monitor that element after form being submitted:&lt;/p&gt;
-
-&lt;pre class=&#34;lang:default decode:true&#34;&gt;&amp;lt;script&amp;gt;
-
-    hbspt.forms.create({
-        formId: &#39;c3794ad3-f6a7-4c98-841d-98062636baab&#39;,
-        portalId: &#39;1670983&#39;,
-        onFormReady: function($form, ctx) {
-
-            var errorMessage = &#34;Your Error Message&#34;;
-
-            $form.find(&#34;input[type=&#39;submit&#39;]&#34;).click(function(){
-                var sbmt = $(this);
-
-                window.setTimeout(function(){
-                    if($(&#34;.hs-error-msgs&#34;).length &amp;gt; 0){
-                        //Put message on the top
-                        $form.prepend(&#34;&amp;lt;div class=&#39;form-error-message&#39;&amp;gt;&#34; + errorMessage + &#34;&amp;lt;/div&amp;gt;&#34;)
-
-                        //Put message on the bottom
-                        sbmt.parent().prepend(&#34;&amp;lt;div class=&#39;form-error-message&#39;&amp;gt;&#34; + errorMessage + &#34;&amp;lt;/div&amp;gt;&#34;)
-                    }else{
-                        $form.find(&#34;.form-error-message&#34;).remove();
-                    }
-
-                //delay to make sure native hbspt form error already appeared
-                }, 300);
-            });
-        }
-    });
-&amp;lt;/script&amp;gt;
-
-
-&amp;lt;style&amp;gt;
-    .form-error-message {
-        color: #ff0000;
-        font-weight: bold;
-        padding: 15px 0px;
-    }
-&amp;lt;/style&amp;gt;&lt;/pre&gt;
-
-&lt;p&gt;You can display your message on top or on the bottom.&lt;/p&gt;
-
-&lt;p&gt;Here is a working example of this kind of form:&lt;/p&gt;
-
-&lt;p&gt;This functionality will be included to the SmartForm plugin we are developing: &lt;a href=&#34;http://integrationagent.com/smartforms&#34;&gt;http://integrationagent.com/smartforms&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
