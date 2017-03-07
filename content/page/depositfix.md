@@ -21,6 +21,7 @@ url = "/depositfix"
 </style>
 
 <link rel="stylesheet" type="text/css" href="https://depositfix.s3.amazonaws.com/style.css"/>
+<h3>Setup fee of $300 + $50/m</h3>
 <div id="df-card-container"></div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
@@ -29,9 +30,6 @@ url = "/depositfix"
 <![endif]-->
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
 <script src="https://depositfix.s3.amazonaws.com/deposifixform.js"></script>
-
-
-<h3>Setup fee of $300 + $50/m</h3>
 
 <script>
     $(document).ready(function() {
