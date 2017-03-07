@@ -483,8 +483,8 @@ We met and discussed deliverables and they were done a week later. When minor ch
         DepositFixForm.init({
             hubSpotFormId: &#39;49bfce9c-1370-4a9c-b723-db237f44de8b&#39;,
             userId: &#34;173&#34;,
-            amount: &#34;50&#34;,
-            productName: &#34;Monthly DepositFix Subscription&#34;,
+            amount: &#34;300&#34;,
+            productName: &#34;Monthly DepositFix Subscription ($50/m)&#34;,
             discount: false
         });
     });
