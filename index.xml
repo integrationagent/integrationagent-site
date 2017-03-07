@@ -565,6 +565,7 @@ Check &lt;a href=&#34;http://www.depositfix.com/&#34;&gt;DepositFix&lt;/a&gt;.&l
 &lt;/style&gt;
 
 &lt;p&gt;&lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;https://depositfix.s3.amazonaws.com/style.css&#34;/&gt;
+&lt;h3&gt;Setup fee of $300 + $50/m&lt;/h3&gt;
 &lt;div id=&#34;df-card-container&#34;&gt;&lt;/div&gt;&lt;/p&gt;
 
 &lt;script src=&#34;https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js&#34;&gt;&lt;/script&gt;
@@ -573,8 +574,6 @@ Check &lt;a href=&#34;http://www.depositfix.com/&#34;&gt;DepositFix&lt;/a&gt;.&l
 &lt;![endif]--&gt;
 &lt;script charset=&#34;utf-8&#34; type=&#34;text/javascript&#34; src=&#34;//js.hsforms.net/forms/v2.js&#34;&gt;&lt;/script&gt;
 &lt;script src=&#34;https://depositfix.s3.amazonaws.com/deposifixform.js&#34;&gt;&lt;/script&gt;
-
-&lt;h3&gt;Setup fee of $300 + $50/m&lt;/h3&gt;
 
 &lt;script&gt;
     $(document).ready(function() {
