@@ -30,13 +30,16 @@ url = "/depositfix"
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
 <script src="https://depositfix.s3.amazonaws.com/deposifixform.js"></script>
 
+
+<h3>Setup fee of $300 + $50/m</h3>
+
 <script>
     $(document).ready(function() {
         DepositFixForm.init({
             hubSpotFormId: '49bfce9c-1370-4a9c-b723-db237f44de8b',
             userId: "173",
             amount: "300",
-            productName: "Monthly DepositFix Subscription ($50/m)",
+            productName: "Monthly DepositFix Subscription",
             discount: false
         });
     });
