@@ -11,6 +11,10 @@
 
 		<title>{{ .Title }} – {{ .Site.Title }}</title>
 
+		{{ if eq .Type "blog" }}
+		<link rel="canonical" href="https://www.depositfix.com{{ .RelPermalink }}">
+		{{ end }}
+
 		{{ if .RSSlink }}
 		<link href="{{ .RSSlink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}"/>
 		<link href="{{ .RSSlink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}"/>

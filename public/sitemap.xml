@@ -2,11 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://integrationagent.com/</loc>
-    <lastmod>2017-02-01T11:22:38-06:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://integrationagent.com/usecases</loc>
     <lastmod>2017-02-01T11:22:38-06:00</lastmod>
   </url>
@@ -119,6 +114,77 @@
   <url>
     <loc>https://integrationagent.com/smart-forms-installation-as-module</loc>
     <lastmod>2015-11-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://integrationagent.com/blog/</loc>
+    <lastmod>2017-01-31T10:54:05-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://integrationagent.com/categories/business/</loc>
+    <lastmod>2016-09-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://integrationagent.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://integrationagent.com/categories/hubspot/</loc>
+    <lastmod>2017-01-31T10:54:05-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://integrationagent.com/categories/hubspot-integrations/</loc>
+    <lastmod>2015-12-03T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://integrationagent.com/categories/hubspot-smart-form/</loc>
+    <lastmod>2015-12-16T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://integrationagent.com/index/</loc>
+    <lastmod>2016-09-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://integrationagent.com/</loc>
+    <lastmod>2017-02-01T11:22:38-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://integrationagent.com/landing/</loc>
+    <lastmod>2016-06-19T08:51:32-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://integrationagent.com/page/</loc>
+    <lastmod>2017-02-01T11:22:38-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://integrationagent.com/categories/payments/</loc>
+    <lastmod>2017-01-31T10:54:05-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://integrationagent.com/categories/saas/</loc>
+    <lastmod>2016-09-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>
