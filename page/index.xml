@@ -580,6 +580,33 @@ We met and discussed deliverables and they were done a week later. When minor ch
     </item>
     
     <item>
+      <title>Payment</title>
+      <link>https://integrationagent.com/payment</link>
+      <pubDate>Tue, 15 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://integrationagent.com/payment</guid>
+      <description>&lt;style&gt;
+body{
+    padding-top: 50px;
+    padding-left: 15%;
+}
+&lt;/style&gt;
+
+&lt;script src=&#39;https://depositfix.s3.amazonaws.com/depositfixform.js&#39;&gt;&lt;/script&gt;
+&lt;script type=&#39;text/javascript&#39; id=&#39;df-script&#39;&gt;
+    DepositFixForm.init({
+        hubSpotFormId: &#39;11866859-cf71-4f41-882c-e913766c9756&#39;,
+        userId: &#39;6a2df43e-8f94-4922-9208-8e501ce3f663&#39;,
+        productName: &#39;Support Plan&#39;,
+        amount: &#39;49&#39;,
+        subscriptionPlan: &#39;int_support_49&#39;,
+        currency: &#39;USD&#39;,
+    });
+&lt;/script&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Products</title>
       <link>https://integrationagent.com/products</link>
       <pubDate>Tue, 15 Dec 2015 00:00:00 +0000</pubDate>
